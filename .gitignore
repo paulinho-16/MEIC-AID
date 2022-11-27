@@ -1,5 +1,6 @@
 # Betfair dataset
 /data/betfair_140901.csv
+/data/betfair.csv
 
 # VSCode folder
 .vscode/
