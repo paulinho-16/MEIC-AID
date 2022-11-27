@@ -37,9 +37,6 @@ def generate_countries():
         country = [fake.current_country_code(), fake.current_country()]
         countries.append(country)
 
-    # dfc = pd.DataFrame(countries)
-    # dfc.to_csv('country.csv', index=False, encoding='utf-8', sep = ';')
-
     with open('csv/country.csv', mode='w+', newline='') as f:
         file_writer = csv.writer(f, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         file_writer.writerow(country_fields)
@@ -63,9 +60,6 @@ def generate_documents():
         documents.append(document)
         # sera necessario adicionar id do doc ao user?
 
-    # dfd = pd.DataFrame(documents)
-    # dfd.to_csv('document.csv', index=False, encoding='utf-8', sep = ';')
-
     with open('csv/document.csv', mode='w+', newline='') as f:
         file_writer = csv.writer(f, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         file_writer.writerow(document_fields)
@@ -76,7 +70,3 @@ if __name__ == "__main__":
     generate_users()
     generate_countries()
     generate_documents()
-
-    # df = pd.DataFrame(users)
-    # df.to_csv('user.csv', index=False, encoding='utf-8', sep = ';')
-    
