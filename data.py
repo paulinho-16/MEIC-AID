@@ -84,6 +84,15 @@ def generate_bets():
 
     df_truncated = pd.concat([df_soccer, df_tennis, df_basket], ignore_index=True, sort=False)
 
+    df_truncated = df_truncated.rename(columns={
+        'SPORTS_ID':'CATEGORY', 'SETTLED_DATE':'END_TIME', 'FULL_DESCRIPTION':'EVENT',
+        'SCHEDULED_OFF':'START_TIME', 'EVENT':'MARKET', 'DT ACTUAL_OFF':'ACTUAL_START_TIME',
+        'SELECTION_ID':'CONTRACT_ID', 'SELECTION':'CONTRACT', 'NUMBER_BETS':'NUMBER_TRADES',
+        'VOLUME_MATCHED':'TOTAL_VALUE', 'LATEST_TAKEN':'LATEST_TRADE', 'FIRST_TAKEN':'FIRST_TRADE',
+        'WIN_FLAG':'WINNER', 'IN_PLAY':'STATE'
+    })
+    df_truncated['CATEGORY'] = df_truncated['CATEGORY'].map({1:'soccer', 2:'male', 7522:'basket'})
+
     filename = os.path.join(DATA_DIR, 'betfair.csv')
     df_truncated.to_csv(filename, index=False, encoding='utf-8', sep=';')
 
