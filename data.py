@@ -72,7 +72,7 @@ def generate_documents():
         file_writer.writerow(document_fields)
         file_writer.writerows(documents)
 
-def generate_bets():
+def truncate_dataset():
     df = pd.read_csv('./data/betfair_140901.csv')
 
     df_portuguese_soccer = df.loc[df['FULL_DESCRIPTION'].str.contains('Portuguese Soccer', na=False)]
@@ -85,19 +85,41 @@ def generate_bets():
     df_truncated = pd.concat([df_soccer, df_tennis, df_basket], ignore_index=True, sort=False)
 
     df_truncated = df_truncated.rename(columns={
-        'SPORTS_ID':'CATEGORY', 'SETTLED_DATE':'END_TIME', 'FULL_DESCRIPTION':'EVENT',
-        'SCHEDULED_OFF':'START_TIME', 'EVENT':'MARKET', 'DT ACTUAL_OFF':'ACTUAL_START_TIME',
-        'SELECTION_ID':'CONTRACT_ID', 'SELECTION':'CONTRACT', 'NUMBER_BETS':'NUMBER_TRADES',
-        'VOLUME_MATCHED':'TOTAL_VALUE', 'LATEST_TAKEN':'LATEST_TRADE', 'FIRST_TAKEN':'FIRST_TRADE',
-        'WIN_FLAG':'WINNER', 'IN_PLAY':'STATE'
+        'SPORTS_ID':'CATEGORY', 'EVENT_ID':'MARKET_ID', 'SETTLED_DATE':'END_TIME',
+        'FULL_DESCRIPTION':'EVENT', 'SCHEDULED_OFF':'START_TIME', 'EVENT':'MARKET',
+        'DT ACTUAL_OFF':'ACTUAL_START_TIME', 'SELECTION_ID':'CONTRACT_ID', 'SELECTION':'CONTRACT',
+        'NUMBER_BETS':'NUMBER_TRADES', 'VOLUME_MATCHED':'TOTAL_VALUE', 'LATEST_TAKEN':'LATEST_TRADE',
+        'FIRST_TAKEN':'FIRST_TRADE', 'WIN_FLAG':'WINNER', 'IN_PLAY':'STATE'
     })
-    df_truncated['CATEGORY'] = df_truncated['CATEGORY'].map({1:'soccer', 2:'male', 7522:'basket'})
+    df_truncated['CATEGORY'] = df_truncated['CATEGORY'].map({1:'soccer', 2:'tennis', 7522:'basket'})
 
     filename = os.path.join(DATA_DIR, 'betfair.csv')
-    df_truncated.to_csv(filename, index=False, encoding='utf-8', sep=';')
+    df_truncated.to_csv(filename, index=False, encoding='utf-8', sep=',')
+
+def generate_bets():
+    df = pd.read_csv('./data/betfair.csv')
+
+    # create table Category
+    categories = df[['CATEGORY']].copy().drop_duplicates()
+
+    # create table Event
+    # TODO: fix
+    events = df[['CATEGORY', 'EVENT', 'START_TIME', 'END_TIME', 'ACTUAL_START_TIME']].copy().drop_duplicates()
+    function_dictionary = {'START_TIME': 'min', 'END_TIME': 'max', 'ACTUAL_START_TIME': 'min'}
+    events['START_TIME'] = pd.to_datetime(df['START_TIME'], format='%d-%m-%Y %H:%M')
+    events['END_TIME'] = pd.to_datetime(df['END_TIME'], format='%d-%m-%Y %H:%M:%S')
+    events['ACTUAL_START_TIME'] = pd.to_datetime(df['ACTUAL_START_TIME'], format='%d-%m-%Y %H:%M:%S')
+    # events.groupby('EVENT', as_index=True).agg(function_dictionary)
+    events = events.groupby("EVENT").aggregate(function_dictionary)
+    # events.insert(0, "EVENT_ID", events.index + 1)
+
+    for table, df in [('category', categories), ('event', events)]:
+        filename = os.path.join(DATA_DIR, f'{table}.csv')
+        df.to_csv(filename, index=False, encoding='utf-8', sep=',')
 
 if __name__ == "__main__":
     generate_users()
     generate_countries()
     generate_documents()
+    truncate_dataset()
     generate_bets()
