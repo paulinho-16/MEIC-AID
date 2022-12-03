@@ -8,73 +8,20 @@ DATA_DIR = './data'
 NUM_ROWS_PER_SPORT = 100000
 
 users = []
-languages = [('pt_PT', 150), ('es_ES', 115), ('fr_FR', 100), ('en_GB', 75), ('it_IT', 125), ('nl_NL', 69), ('de_DE', 95), ('da_DK', 86), ('sk_SK', 35), ('sv_SE', 50)]
+markets = []
+contracts = []
+bets = []
+trades = []
 
-def with_probability(probability):
-    return random.random() < probability
-
-# generate fake data and store into a CSV file
-def generate_users():
-    user_fields = ['id', 'name', 'address', 'date', 'phone', 'email', 'excluded', 'approved', 'balance', 'countryId']
-    id = 1
-
-    for lang in languages:
-        fake = Faker(lang[0])
-        
-        # records = random.randint(75, 125)
-        
-        for _ in range(lang[1]):
-            user = [id, fake.name(), fake.address().replace('\n', " "), fake.date_between(start_date='-90y', end_date='-18y'), str(fake.phone_number()), str(fake.email()), with_probability(0.08), with_probability(0.8), fake.random_number(digits=6),fake.current_country_code()]
-            users.append(user)
-            id += 1
-
-    filename = os.path.join(DATA_DIR, 'user.csv')
-    with open(filename, mode='w+', newline='', encoding='utf-8') as f:
-        file_writer = csv.writer(f, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        file_writer.writerow(user_fields)
-        file_writer.writerows(users)
-
-
-def generate_countries():
-    countries = []
-    country_fields = ['id', 'name']
-    
-    for lang in languages:
-        fake = Faker(lang[0])
-        country = [fake.current_country_code(), fake.current_country()]
-        countries.append(country)
-
-    filename = os.path.join(DATA_DIR, 'country.csv')
-    with open(filename, mode='w+', newline='', encoding='utf-8') as f:
-        file_writer = csv.writer(f, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        file_writer.writerow(country_fields)
-        file_writer.writerows(countries)
-
-def generate_documents():
-    documents = []
-    fake = Faker()
-    approved = True
-    document_fields = ['id', 'type', 'file', 'approved', 'userId']
-    for user in users:
-
-        if user[7]:
-            approved = True
-        else:
-            approved = False
-
-        ext = random.choice(['pdf', 'png', 'jpeg'])
-
-        document = [fake.random_number(digits=5), random.choice(['Driver License', 'Identification Card', 'Bill']), fake.file_name(extension=ext), approved, user[0]]
-        documents.append(document)
-        # sera necessario adicionar id do doc ao user?
-
-    filename = os.path.join(DATA_DIR, 'document.csv')
-    with open(filename, mode='w+', newline='', encoding='utf-8') as f:
-        file_writer = csv.writer(f, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        file_writer.writerow(document_fields)
-        file_writer.writerows(documents)
+def get_users():
+    global users
+    with open("./data/user.csv", mode='r', newline='', encoding='utf-8') as f:
+        reader = csv.reader(f)
+        users = list(reader)
+    users.pop(0)
 
 def truncate_dataset():
+    print('---------TRUNCATING DATASET---------')
     df = pd.read_csv('./data/betfair_140901.csv')
 
     df_portuguese_soccer = df.loc[df['FULL_DESCRIPTION'].str.contains('Portuguese Soccer', na=False)]
@@ -97,8 +44,11 @@ def truncate_dataset():
 
     filename = os.path.join(DATA_DIR, 'betfair.csv')
     df_truncated.to_csv(filename, index=False, encoding='utf-8', sep=',')
+    print(':::::GENERATED ' + str(len(df_truncated)) + ' LINES:::::')
+    print(':::::GENERATED 3 MARKETS:::::')
 
-def generate_bets():
+def generate_events():
+    print('---------GENERATING EVENTS---------')
     df = pd.read_csv('./data/betfair.csv')
 
     # create table Category
@@ -119,11 +69,142 @@ def generate_bets():
         filename = os.path.join(DATA_DIR, f'{table}.csv')
         df.to_csv(filename, index=False, encoding='utf-8', sep=',')
 
+    print(':::::GENERATED ' + str(len(events)) + ' EVENTS:::::')
+
+def generate_markets():
+    print('---------GENERATING MARKETS---------')
+    print('#####THIS MAY TAKE A WHILE#####')
+    global markets
+    market_fields = ['id', 'event_id', 'name']
+    betfair = []
+
+    with open("./data/betfair.csv", mode='r', newline='', encoding='utf-8') as fo:
+        reader = csv.reader(fo)
+        betfair = list(reader)
+
+
+    filename = os.path.join(DATA_DIR, 'market.csv')
+    with open(filename, mode='w+', newline='', encoding='utf-8') as f:
+        file_writer = csv.writer(f, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        file_writer.writerow(market_fields)
+
+    betfair.pop(0)
+
+    for row in betfair:
+        if row[1] not in markets:
+            markets.append(row[1])
+            market = [row[1], 1, row[5]] #TODO: add correct id_event
+            with open(filename, mode='a', newline='', encoding='utf-8') as f:
+                file_writer = csv.writer(f, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                file_writer.writerow(market)
+
+    print(':::::GENERATED ' + str(len(markets)) + ' MARKETS:::::')
+
+def generate_contracts():
+    print('---------GENERATING CONTRACTS---------')
+    global contracts
+    contracts_fields = ['id', 'market_id', 'name', 'winner']
+    betfair = []
+
+    with open("./data/betfair.csv", mode='r', newline='', encoding='utf-8') as fo:
+        reader = csv.reader(fo)
+        betfair = list(reader)
+
+    filename = os.path.join(DATA_DIR, 'contract.csv')
+    with open(filename, mode='w+', newline='', encoding='utf-8') as f:
+        file_writer = csv.writer(f, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        file_writer.writerow(contracts_fields)
+
+    betfair.pop(0)
+
+    for row in betfair:
+        if row[7] not in contracts:
+            contract = [row[7], row[1], row[8], random.randint(0,1)]
+            contracts.append(row[7])
+
+            with open(filename, mode='a', newline='', encoding='utf-8') as f:
+                file_writer = csv.writer(f, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                file_writer.writerow(contract)
+
+    print(':::::GENERATED ' + str(len(contracts)) + ' CONTRACTS:::::')
+
+def generate_bets():
+    print('---------GENERATING BETS/TRADES---------')
+    global bets
+    global trades
+    bet_fields = ['id', 'contract_id', 'user_id', 'value', 'odd']
+    trade_fields = ['id', 'bet_buyer_id', 'bet_seller_id', 'user_buyer_id', 'user_seller_id', 'value', 'odd']
+    id_bet = 1
+    id_trade = 1
+
+    betfair = []
+
+    with open("./data/betfair.csv", mode='r', newline='', encoding='utf-8') as fo:
+        reader = csv.reader(fo)
+        betfair = list(reader)
+
+    filename = os.path.join(DATA_DIR, 'bet.csv')
+    with open(filename, mode='w+', newline='', encoding='utf-8') as f:
+        file_writer = csv.writer(f, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        file_writer.writerow(bet_fields)
+
+    filename1 = os.path.join(DATA_DIR, 'trade.csv')
+    with open(filename1, mode='w+', newline='', encoding='utf-8') as f:
+        file_writer = csv.writer(f, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        file_writer.writerow(trade_fields)
+
+    betfair.pop(0)
+
+    for row in betfair:
+        id_contract = row[7]
+        number_trades = int(row[10])
+        number_bets = number_trades * 2
+        trade_value = float(row[11]) / number_trades
+        bet_value = trade_value / 2
+        odd = float(row[9])
+        count_trades = 0
+        count_bets = 0
+
+        while count_trades < number_trades:
+            while count_bets < number_bets:
+                user_buyer_id = 0
+                user_seller_id = 0
+                excluded = True
+                while (user_buyer_id == user_seller_id) and excluded:
+                    user_buyer_id = random.randint(1, 900)
+                    user_seller_id = random.randint(1, 900)
+                    if users[user_buyer_id - 1][6] == "False" and users[user_seller_id - 1][6] == "False":
+                        excluded = False 
+                bet_seller_id = id_bet
+                bets.append(id_bet)
+                id_bet += 1
+                bet_buyer_id = id_bet
+                bets.append(id_bet)
+                id_bet += 1
+                count_bets += 2
+
+                with open(filename, mode='a', newline='', encoding='utf-8') as f:
+                    file_writer = csv.writer(f, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                    file_writer.writerow([bet_seller_id, id_contract, user_seller_id, bet_value, odd])
+                    file_writer.writerow([bet_buyer_id, id_contract, user_buyer_id, bet_value, odd])
+
+                with open(filename1, mode='a', newline='') as f:
+                        file_writer = csv.writer(f, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                        file_writer.writerow([id_trade, bet_buyer_id, bet_seller_id, user_buyer_id, user_seller_id, bet_value, odd])
+                
+                trades.append(id_trade)
+                id_trade += 1
+                count_trades += 1
+
+    print(':::::GENERATED ' + str(len(bets)) + ' BETS:::::')
+    print(':::::GENERATED ' + str(len(trades)) + ' TRADES:::::')
+
 def main():
-    generate_users()
-    generate_countries()
-    generate_documents()
+    get_users()
     truncate_dataset()
+    generate_events()
+    generate_markets()
+    generate_contracts()
     generate_bets()
 
 if __name__ == "__main__":
