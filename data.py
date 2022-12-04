@@ -43,7 +43,7 @@ def truncate_dataset():
 
     filename = os.path.join(DATA_DIR, 'betfair.csv')
     df_truncated.to_csv(filename, index=False, encoding='utf-8', sep=',')
-    print(':::::GENERATED ' + str(len(df_truncated)) + ' LINES:::::')
+    print(f':::::GENERATED {str(len(df_truncated))} LINES:::::')
 
 def generate_categories():
     print('---------GENERATING CATEGORIES---------')
@@ -53,7 +53,7 @@ def generate_categories():
 
     filename = os.path.join(DATA_DIR, 'category.csv')
     categories.to_csv(filename, index=False, encoding='utf-8', sep=',')
-    print(':::::GENERATED ' + str(len(categories)) + ' CATEGORIES:::::')
+    print(f':::::GENERATED {str(len(categories))} CATEGORIES:::::')
 
 def generate_events():
     global events
@@ -72,7 +72,7 @@ def generate_events():
     filename = os.path.join(DATA_DIR, 'event.csv')
     events.to_csv(filename, index=False, encoding='utf-8', sep=',')
 
-    print(':::::GENERATED ' + str(len(events)) + ' EVENTS:::::')
+    print(f':::::GENERATED {str(len(events))} EVENTS:::::')
 
 def generate_markets():
     global events
@@ -82,41 +82,38 @@ def generate_markets():
     markets = df[['MARKET_ID', 'MARKET', 'EVENT']].copy().drop_duplicates()
     markets = markets.groupby(['EVENT', 'MARKET_ID']).sum().reset_index()
     markets['EVENT_ID'] = markets['EVENT'].map(events.set_index('EVENT')['EVENT_ID'])
-    
     markets = markets.drop(['EVENT'], axis=1)
 
     filename = os.path.join(DATA_DIR, 'market.csv')
     markets.to_csv(filename, index=False, encoding='utf-8', sep=',')
 
-    print(':::::GENERATED ' + str(len(markets)) + ' MARKETS:::::')
+    print(f':::::GENERATED {str(len(markets))} MARKETS:::::')
 
 def generate_contracts():
     print('---------GENERATING CONTRACTS---------')
-    global contracts
-    contracts_fields = ['id', 'market_id', 'name', 'winner']
-    betfair = []
+    df = pd.read_csv('./data/betfair.csv')
 
-    with open("./data/betfair.csv", mode='r', newline='', encoding='utf-8') as fo:
-        reader = csv.reader(fo)
-        betfair = list(reader)
+    contracts = df[['CONTRACT_ID', 'CONTRACT', 'WINNER', 'MARKET_ID']].copy().drop_duplicates()
+    contracts = contracts.groupby(['MARKET_ID', 'CONTRACT_ID']).agg({'CONTRACT': 'first', 'WINNER': 'first'}).reset_index()
+
+    winner_sum = contracts.groupby('MARKET_ID').sum('WINNER')
+    invalid_winner = winner_sum.loc[winner_sum['WINNER'] != 1].index.tolist()
+
+    for market in invalid_winner:
+        winner = contracts.loc[contracts['MARKET_ID'] == market].sort_values(by=['WINNER'], ascending=False).head(1)
+
+        if winner['WINNER'].values[0] == 0:
+            winner = contracts.loc[contracts['MARKET_ID'] == market].sample() # select a random winner
+        else:
+            winner = contracts.loc[(contracts['MARKET_ID'] == market) & (contracts['WINNER'] == 1)].sample() # randomly select one of the previous winners
+        
+        contracts.loc[contracts['MARKET_ID'] == market, 'WINNER'] = 0
+        contracts.loc[(contracts['MARKET_ID'] == market) & (contracts['CONTRACT_ID'] == winner['CONTRACT_ID'].values[0]), 'WINNER'] = 1
 
     filename = os.path.join(DATA_DIR, 'contract.csv')
-    with open(filename, mode='w+', newline='', encoding='utf-8') as f:
-        file_writer = csv.writer(f, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        file_writer.writerow(contracts_fields)
+    contracts.to_csv(filename, index=False, encoding='utf-8', sep=',')
 
-    betfair.pop(0)
-
-    for row in betfair:
-        if row[7] not in contracts:
-            contract = [row[7], row[1], row[8], random.randint(0,1)]
-            contracts.append(row[7])
-
-            with open(filename, mode='a', newline='', encoding='utf-8') as f:
-                file_writer = csv.writer(f, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-                file_writer.writerow(contract)
-
-    print(':::::GENERATED ' + str(len(contracts)) + ' CONTRACTS:::::')
+    print(f':::::GENERATED {str(len(contracts))} CONTRACTS:::::')
 
 def generate_bets():
     print('---------GENERATING BETS/TRADES---------')
@@ -186,8 +183,8 @@ def generate_bets():
                 id_trade += 1
                 count_trades += 1
 
-    print(':::::GENERATED ' + str(len(bets)) + ' BETS:::::')
-    print(':::::GENERATED ' + str(len(trades)) + ' TRADES:::::')
+    print(f':::::GENERATED {str(len(bets))} BETS:::::')
+    print(f':::::GENERATED {str(len(trades))} TRADES:::::')
 
 def main():
     get_users()
