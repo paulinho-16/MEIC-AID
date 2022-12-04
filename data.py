@@ -1,7 +1,6 @@
 import os
 import pandas as pd
 import csv
-from faker import Faker
 import random
 
 DATA_DIR = './data'
@@ -47,27 +46,31 @@ def truncate_dataset():
     print(':::::GENERATED ' + str(len(df_truncated)) + ' LINES:::::')
     print(':::::GENERATED 3 MARKETS:::::')
 
+def generate_categories():
+    print('---------GENERATING CATEGORIES---------')
+    df = pd.read_csv('./data/betfair.csv')
+
+    categories = df[['CATEGORY']].copy().drop_duplicates()
+
+    filename = os.path.join(DATA_DIR, 'category.csv')
+    categories.to_csv(filename, index=False, encoding='utf-8', sep=',')
+    print(':::::GENERATED ' + str(len(categories)) + ' CATEGORIES:::::')
+
 def generate_events():
     print('---------GENERATING EVENTS---------')
     df = pd.read_csv('./data/betfair.csv')
 
-    # create table Category
-    categories = df[['CATEGORY']].copy().drop_duplicates()
-
-    # create table Event
-    # TODO: fix
     events = df[['CATEGORY', 'EVENT', 'START_TIME', 'END_TIME', 'ACTUAL_START_TIME']].copy().drop_duplicates()
-    function_dictionary = {'START_TIME': 'min', 'END_TIME': 'max', 'ACTUAL_START_TIME': 'min'}
     events['START_TIME'] = pd.to_datetime(df['START_TIME'], format='%d-%m-%Y %H:%M')
     events['END_TIME'] = pd.to_datetime(df['END_TIME'], format='%d-%m-%Y %H:%M:%S')
     events['ACTUAL_START_TIME'] = pd.to_datetime(df['ACTUAL_START_TIME'], format='%d-%m-%Y %H:%M:%S')
-    # events.groupby('EVENT', as_index=True).agg(function_dictionary)
-    events = events.groupby("EVENT").aggregate(function_dictionary)
-    # events.insert(0, "EVENT_ID", events.index + 1)
 
-    for table, df in [('category', categories), ('event', events)]:
-        filename = os.path.join(DATA_DIR, f'{table}.csv')
-        df.to_csv(filename, index=False, encoding='utf-8', sep=',')
+    function_dictionary = {'CATEGORY': pd.Series.mode, 'START_TIME': 'min', 'END_TIME': 'max', 'ACTUAL_START_TIME': 'min'}
+    events = events.groupby('EVENT').agg(function_dictionary).reset_index()
+    events.insert(0, "EVENT_ID", events.index + 1)
+
+    filename = os.path.join(DATA_DIR, 'event.csv')
+    events.to_csv(filename, index=False, encoding='utf-8', sep=',')
 
     print(':::::GENERATED ' + str(len(events)) + ' EVENTS:::::')
 
@@ -202,6 +205,7 @@ def generate_bets():
 def main():
     get_users()
     truncate_dataset()
+    generate_categories()
     generate_events()
     generate_markets()
     generate_contracts()
@@ -209,5 +213,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
-    
