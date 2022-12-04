@@ -4,10 +4,10 @@ import csv
 import random
 
 DATA_DIR = './data'
-NUM_ROWS_PER_SPORT = 100000
+NUM_ROWS_PER_SPORT = 50000
 
 users = []
-markets = []
+events = None
 contracts = []
 bets = []
 trades = []
@@ -44,7 +44,6 @@ def truncate_dataset():
     filename = os.path.join(DATA_DIR, 'betfair.csv')
     df_truncated.to_csv(filename, index=False, encoding='utf-8', sep=',')
     print(':::::GENERATED ' + str(len(df_truncated)) + ' LINES:::::')
-    print(':::::GENERATED 3 MARKETS:::::')
 
 def generate_categories():
     print('---------GENERATING CATEGORIES---------')
@@ -57,6 +56,7 @@ def generate_categories():
     print(':::::GENERATED ' + str(len(categories)) + ' CATEGORIES:::::')
 
 def generate_events():
+    global events
     print('---------GENERATING EVENTS---------')
     df = pd.read_csv('./data/betfair.csv')
 
@@ -75,31 +75,18 @@ def generate_events():
     print(':::::GENERATED ' + str(len(events)) + ' EVENTS:::::')
 
 def generate_markets():
+    global events
     print('---------GENERATING MARKETS---------')
-    print('#####THIS MAY TAKE A WHILE#####')
-    global markets
-    market_fields = ['id', 'event_id', 'name']
-    betfair = []
+    df = pd.read_csv('./data/betfair.csv')
 
-    with open("./data/betfair.csv", mode='r', newline='', encoding='utf-8') as fo:
-        reader = csv.reader(fo)
-        betfair = list(reader)
-
+    markets = df[['MARKET_ID', 'MARKET', 'EVENT']].copy().drop_duplicates()
+    markets = markets.groupby(['EVENT', 'MARKET_ID']).sum().reset_index()
+    markets['EVENT_ID'] = markets['EVENT'].map(events.set_index('EVENT')['EVENT_ID'])
+    
+    markets = markets.drop(['EVENT'], axis=1)
 
     filename = os.path.join(DATA_DIR, 'market.csv')
-    with open(filename, mode='w+', newline='', encoding='utf-8') as f:
-        file_writer = csv.writer(f, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        file_writer.writerow(market_fields)
-
-    betfair.pop(0)
-
-    for row in betfair:
-        if row[1] not in markets:
-            markets.append(row[1])
-            market = [row[1], 1, row[5]] #TODO: add correct id_event
-            with open(filename, mode='a', newline='', encoding='utf-8') as f:
-                file_writer = csv.writer(f, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-                file_writer.writerow(market)
+    markets.to_csv(filename, index=False, encoding='utf-8', sep=',')
 
     print(':::::GENERATED ' + str(len(markets)) + ' MARKETS:::::')
 
