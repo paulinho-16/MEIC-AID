@@ -1,27 +1,27 @@
 import os
 import pandas as pd
 import csv
-import random
 
 DATA_DIR = './data'
-NUM_ROWS_PER_SPORT = 50000
+NUM_ROWS_PER_SPORT = 15000
 
 users = []
 events = None
-contracts = []
 bets = []
 trades = []
 
 def get_users():
     global users
-    with open("./data/user.csv", mode='r', newline='', encoding='utf-8') as f:
+    filename = os.path.join(DATA_DIR, 'user.csv')
+    with open(filename, mode='r', newline='', encoding='utf-8') as f:
         reader = csv.reader(f)
         users = list(reader)
     users.pop(0)
 
 def truncate_dataset():
     print('---------TRUNCATING DATASET---------')
-    df = pd.read_csv('./data/betfair_140901.csv')
+    filename = os.path.join(DATA_DIR, 'betfair_140901.csv')
+    df = pd.read_csv(filename)
 
     df_portuguese_soccer = df.loc[df['FULL_DESCRIPTION'].str.contains('Portuguese Soccer', na=False)]
     df_portuguese_soccer = df_portuguese_soccer.replace('Sp Lisbon', 'Sporting Clube de Portugal', regex=True) # fixing Betfair's ignorance
@@ -47,7 +47,8 @@ def truncate_dataset():
 
 def generate_categories():
     print('---------GENERATING CATEGORIES---------')
-    df = pd.read_csv('./data/betfair.csv')
+    filename = os.path.join(DATA_DIR, 'betfair.csv')
+    df = pd.read_csv(filename)
 
     categories = df[['CATEGORY']].copy().drop_duplicates()
 
@@ -58,7 +59,8 @@ def generate_categories():
 def generate_events():
     global events
     print('---------GENERATING EVENTS---------')
-    df = pd.read_csv('./data/betfair.csv')
+    filename = os.path.join(DATA_DIR, 'betfair.csv')
+    df = pd.read_csv(filename)
 
     events = df[['CATEGORY', 'EVENT', 'START_TIME', 'END_TIME', 'ACTUAL_START_TIME']].copy().drop_duplicates()
     events['START_TIME'] = pd.to_datetime(df['START_TIME'], format='%d-%m-%Y %H:%M')
@@ -67,7 +69,7 @@ def generate_events():
 
     function_dictionary = {'CATEGORY': pd.Series.mode, 'START_TIME': 'min', 'END_TIME': 'max', 'ACTUAL_START_TIME': 'min'}
     events = events.groupby('EVENT').agg(function_dictionary).reset_index()
-    events.insert(0, "EVENT_ID", events.index + 1)
+    events.insert(0, 'EVENT_ID', events.index + 1)
 
     filename = os.path.join(DATA_DIR, 'event.csv')
     events.to_csv(filename, index=False, encoding='utf-8', sep=',')
@@ -77,7 +79,8 @@ def generate_events():
 def generate_markets():
     global events
     print('---------GENERATING MARKETS---------')
-    df = pd.read_csv('./data/betfair.csv')
+    filename = os.path.join(DATA_DIR, 'betfair.csv')
+    df = pd.read_csv(filename)
 
     markets = df[['MARKET_ID', 'MARKET', 'EVENT']].copy().drop_duplicates()
     markets = markets.groupby(['EVENT', 'MARKET_ID']).sum().reset_index()
@@ -91,7 +94,8 @@ def generate_markets():
 
 def generate_contracts():
     print('---------GENERATING CONTRACTS---------')
-    df = pd.read_csv('./data/betfair.csv')
+    filename = os.path.join(DATA_DIR, 'betfair.csv')
+    df = pd.read_csv(filename)
 
     contracts = df[['CONTRACT_ID', 'CONTRACT', 'WINNER', 'MARKET_ID']].copy().drop_duplicates()
     contracts = contracts.groupby(['MARKET_ID', 'CONTRACT_ID']).agg({'CONTRACT': 'first', 'WINNER': 'first'}).reset_index()
@@ -117,71 +121,35 @@ def generate_contracts():
 
 def generate_bets():
     print('---------GENERATING BETS/TRADES---------')
-    global bets
-    global trades
-    bet_fields = ['id', 'contract_id', 'user_id', 'value', 'odd']
-    trade_fields = ['id', 'bet_buyer_id', 'bet_seller_id', 'user_buyer_id', 'user_seller_id', 'value', 'odd']
-    id_bet = 1
-    id_trade = 1
+    filename = os.path.join(DATA_DIR, 'betfair.csv')
+    df = pd.read_csv(filename)
+    filename = os.path.join(DATA_DIR, 'user.csv')
+    users = pd.read_csv(filename)
+    valid_users = users.loc[(users['excluded'] == False) & (users['approved'] == True)]
 
-    betfair = []
+    transactions = df[['MARKET_ID', 'CONTRACT_ID', 'ODDS', 'NUMBER_TRADES', 'TOTAL_VALUE']].copy().drop_duplicates()
+    bets_dict, trades_dict = {}, {}
+    bet_id, trade_id = 1, 1
 
-    with open("./data/betfair.csv", mode='r', newline='', encoding='utf-8') as fo:
-        reader = csv.reader(fo)
-        betfair = list(reader)
+    for _, trans in transactions.iterrows():
+        trade_value = trans['TOTAL_VALUE'] / trans['NUMBER_TRADES']
+        bet_value = trade_value / 2
+        for _ in range(int(trans['NUMBER_TRADES'])):
+            bet_users = valid_users.sample(n=2)
+            back_user, lay_user = bet_users.iloc[0]['id'], bet_users.iloc[1]['id']
+            bets_dict[bet_id] = [bet_id, int(trans['MARKET_ID']), int(trans['CONTRACT_ID']), trans['ODDS'], bet_value, back_user, 'BACK']
+            bets_dict[bet_id + 1] = [bet_id + 1, int(trans['MARKET_ID']), int(trans['CONTRACT_ID']), trans['ODDS'], bet_value, lay_user, 'LAY']
+            trades_dict[trade_id] = [bet_id, bet_id + 1, trans['ODDS'], trade_value]
+            bet_id += 2
+            trade_id += 1
+
+    bets = pd.DataFrame.from_dict(bets_dict, orient='index', columns=['BET_ID', 'MARKET_ID', 'CONTRACT_ID', 'ODD', 'VALUE', 'USER_ID', 'TYPE'])
+    trades = pd.DataFrame.from_dict(trades_dict, orient='index', columns=['BACK_BET', 'LAY_BET', 'ODD', 'VALUE'])
 
     filename = os.path.join(DATA_DIR, 'bet.csv')
-    with open(filename, mode='w+', newline='', encoding='utf-8') as f:
-        file_writer = csv.writer(f, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        file_writer.writerow(bet_fields)
-
-    filename1 = os.path.join(DATA_DIR, 'trade.csv')
-    with open(filename1, mode='w+', newline='', encoding='utf-8') as f:
-        file_writer = csv.writer(f, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        file_writer.writerow(trade_fields)
-
-    betfair.pop(0)
-
-    for row in betfair:
-        id_contract = row[7]
-        number_trades = int(row[10])
-        number_bets = number_trades * 2
-        trade_value = float(row[11]) / number_trades
-        bet_value = trade_value / 2
-        odd = float(row[9])
-        count_trades = 0
-        count_bets = 0
-
-        while count_trades < number_trades:
-            while count_bets < number_bets:
-                user_buyer_id = 0
-                user_seller_id = 0
-                excluded = True
-                while (user_buyer_id == user_seller_id) and excluded:
-                    user_buyer_id = random.randint(1, 900)
-                    user_seller_id = random.randint(1, 900)
-                    if users[user_buyer_id - 1][6] == "False" and users[user_seller_id - 1][6] == "False":
-                        excluded = False 
-                bet_seller_id = id_bet
-                bets.append(id_bet)
-                id_bet += 1
-                bet_buyer_id = id_bet
-                bets.append(id_bet)
-                id_bet += 1
-                count_bets += 2
-
-                with open(filename, mode='a', newline='', encoding='utf-8') as f:
-                    file_writer = csv.writer(f, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-                    file_writer.writerow([bet_seller_id, id_contract, user_seller_id, bet_value, odd])
-                    file_writer.writerow([bet_buyer_id, id_contract, user_buyer_id, bet_value, odd])
-
-                with open(filename1, mode='a', newline='') as f:
-                        file_writer = csv.writer(f, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-                        file_writer.writerow([id_trade, bet_buyer_id, bet_seller_id, user_buyer_id, user_seller_id, bet_value, odd])
-                
-                trades.append(id_trade)
-                id_trade += 1
-                count_trades += 1
+    bets.to_csv(filename, index=False, encoding='utf-8', sep=',')
+    filename = os.path.join(DATA_DIR, 'trade.csv')
+    trades.to_csv(filename, index=False, encoding='utf-8', sep=',')
 
     print(f':::::GENERATED {str(len(bets))} BETS:::::')
     print(f':::::GENERATED {str(len(trades))} TRADES:::::')
@@ -195,5 +163,5 @@ def main():
     generate_contracts()
     generate_bets()
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
