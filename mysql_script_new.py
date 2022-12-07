@@ -116,7 +116,7 @@ def createTable(name):
                 type text NOT NULL,\
                 PRIMARY KEY (id),\
                 CONSTRAINT CONTRACT_ID FOREIGN KEY(contract_id, market_id) REFERENCES contract(id, market_id),\
-                CONSTRAINT USER_ID)FOREIGN KEY (user_id) REFERENCES user(id))"
+                CONSTRAINT USER_ID FOREIGN KEY (user_id) REFERENCES user(id))"
 
 def insertValueOnTable(name):
     match name:
