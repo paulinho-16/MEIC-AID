@@ -3,7 +3,7 @@ import pandas as pd
 import csv
 
 DATA_DIR = './data'
-NUM_ROWS_PER_SPORT = 15000
+NUM_ROWS_PER_SPORT = 6500
 
 users = []
 events = None
@@ -22,9 +22,11 @@ def truncate_dataset():
     print('---------TRUNCATING DATASET---------')
     filename = os.path.join(DATA_DIR, 'betfair_140901.csv')
     df = pd.read_csv(filename)
+    df = df.dropna(subset=['SETTLED_DATE', 'SCHEDULED_OFF'])
 
-    df_portuguese_soccer = df.loc[df['FULL_DESCRIPTION'].str.contains('Portuguese Soccer', na=False)]
+    df_portuguese_soccer = df.loc[df['FULL_DESCRIPTION'].str.contains('Portuguese Soccer', na=False)].head(1000)
     df_portuguese_soccer = df_portuguese_soccer.replace('Sp Lisbon', 'Sporting Clube de Portugal', regex=True) # fixing Betfair's ignorance
+    
     df_other_soccer = df.loc[df['SPORTS_ID'] == 1 & ~df['FULL_DESCRIPTION'].str.contains('Portuguese Soccer', na=False)].head(NUM_ROWS_PER_SPORT - df_portuguese_soccer.shape[0])
     df_soccer = pd.concat([df_portuguese_soccer, df_other_soccer], ignore_index=True, sort=False)
     df_tennis = df.loc[df['SPORTS_ID'] == 2].head(NUM_ROWS_PER_SPORT)
@@ -51,6 +53,7 @@ def generate_categories():
     df = pd.read_csv(filename)
 
     categories = df[['CATEGORY']].copy().drop_duplicates()
+    categories.rename(columns={'CATEGORY' : 'category'}, inplace=True)
 
     filename = os.path.join(DATA_DIR, 'category.csv')
     categories.to_csv(filename, index=False, encoding='utf-8', sep=',')
@@ -62,14 +65,17 @@ def generate_events():
     filename = os.path.join(DATA_DIR, 'betfair.csv')
     df = pd.read_csv(filename)
 
-    events = df[['CATEGORY', 'EVENT', 'START_TIME', 'END_TIME', 'ACTUAL_START_TIME']].copy().drop_duplicates()
+    events = df[['CATEGORY', 'EVENT', 'START_TIME', 'END_TIME']].copy().drop_duplicates()
     events['START_TIME'] = pd.to_datetime(df['START_TIME'], format='%d-%m-%Y %H:%M')
     events['END_TIME'] = pd.to_datetime(df['END_TIME'], format='%d-%m-%Y %H:%M:%S')
-    events['ACTUAL_START_TIME'] = pd.to_datetime(df['ACTUAL_START_TIME'], format='%d-%m-%Y %H:%M:%S')
 
-    function_dictionary = {'CATEGORY': pd.Series.mode, 'START_TIME': 'min', 'END_TIME': 'max', 'ACTUAL_START_TIME': 'min'}
+    function_dictionary = {'CATEGORY': pd.Series.mode, 'START_TIME': 'min', 'END_TIME': 'max'}
     events = events.groupby('EVENT').agg(function_dictionary).reset_index()
     events.insert(0, 'EVENT_ID', events.index + 1)
+
+    events.rename(columns={'EVENT_ID' : 'id', 'EVENT' : 'name', 'START_TIME' : 'startTime', 'END_TIME' : 'endTime', 'CATEGORY' : 'category'}, inplace=True)
+
+    events = events.loc[:,['id', 'name', 'startTime', 'endTime', 'category']]
 
     filename = os.path.join(DATA_DIR, 'event.csv')
     events.to_csv(filename, index=False, encoding='utf-8', sep=',')
@@ -84,8 +90,11 @@ def generate_markets():
 
     markets = df[['MARKET_ID', 'MARKET', 'EVENT']].copy().drop_duplicates()
     markets = markets.groupby(['EVENT', 'MARKET_ID']).sum().reset_index()
-    markets['EVENT_ID'] = markets['EVENT'].map(events.set_index('EVENT')['EVENT_ID'])
+    markets['EVENT_ID'] = markets['EVENT'].map(events.set_index('name')['id'])
     markets = markets.drop(['EVENT'], axis=1)
+
+    markets.rename(columns={'MARKET_ID' : 'id', 'MARKET' : 'name', 'EVENT_ID' : 'event_id'}, inplace=True)
+    markets = markets.loc[:,['id', 'event_id', 'name']]
 
     filename = os.path.join(DATA_DIR, 'market.csv')
     markets.to_csv(filename, index=False, encoding='utf-8', sep=',')
@@ -114,6 +123,9 @@ def generate_contracts():
         contracts.loc[contracts['MARKET_ID'] == market, 'WINNER'] = 0
         contracts.loc[(contracts['MARKET_ID'] == market) & (contracts['CONTRACT_ID'] == winner['CONTRACT_ID'].values[0]), 'WINNER'] = 1
 
+    contracts.rename(columns={'MARKET_ID' : 'market_id', 'CONTRACT_ID' : 'id', 'CONTRACT' : 'name', 'WINNER' : 'winner'}, inplace=True)
+    contracts = contracts.loc[:,['id', 'market_id', 'name', 'winner']]
+
     filename = os.path.join(DATA_DIR, 'contract.csv')
     contracts.to_csv(filename, index=False, encoding='utf-8', sep=',')
 
@@ -137,14 +149,14 @@ def generate_bets():
         for _ in range(int(trans['NUMBER_TRADES'])):
             bet_users = valid_users.sample(n=2)
             back_user, lay_user = bet_users.iloc[0]['id'], bet_users.iloc[1]['id']
-            bets_dict[bet_id] = [bet_id, int(trans['MARKET_ID']), int(trans['CONTRACT_ID']), trans['ODDS'], bet_value, back_user, 'BACK']
-            bets_dict[bet_id + 1] = [bet_id + 1, int(trans['MARKET_ID']), int(trans['CONTRACT_ID']), trans['ODDS'], bet_value, lay_user, 'LAY']
-            trades_dict[trade_id] = [bet_id, bet_id + 1, trans['ODDS'], trade_value]
+            bets_dict[bet_id] = [bet_id, int(trans['MARKET_ID']), int(trans['CONTRACT_ID']), back_user, trans['ODDS'], bet_value, 'BACK']
+            bets_dict[bet_id + 1] = [bet_id + 1, int(trans['MARKET_ID']), int(trans['CONTRACT_ID']), lay_user, trans['ODDS'], bet_value, 'LAY']
+            trades_dict[trade_id] = [trade_id, bet_id, bet_id + 1, trans['ODDS'], trade_value]
             bet_id += 2
             trade_id += 1
 
-    bets = pd.DataFrame.from_dict(bets_dict, orient='index', columns=['BET_ID', 'MARKET_ID', 'CONTRACT_ID', 'ODD', 'VALUE', 'USER_ID', 'TYPE'])
-    trades = pd.DataFrame.from_dict(trades_dict, orient='index', columns=['BACK_BET', 'LAY_BET', 'ODD', 'VALUE'])
+    bets = pd.DataFrame.from_dict(bets_dict, orient='index', columns=['id', 'market_id', 'contract_id', 'user_id', 'odd', 'value', 'type'])
+    trades = pd.DataFrame.from_dict(trades_dict, orient='index', columns=['id', 'back_bet_id', 'lay_bet_id', 'odd', 'value'])
 
     filename = os.path.join(DATA_DIR, 'bet.csv')
     bets.to_csv(filename, index=False, encoding='utf-8', sep=',')

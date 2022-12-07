@@ -2,6 +2,9 @@
 /data/betfair_140901.csv
 /data/betfair.csv
 
+# Config file
+config.ini
+
 # VSCode folder
 .vscode/
 

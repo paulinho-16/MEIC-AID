@@ -28,7 +28,7 @@ def generate_users():
             id += 1
 
     filename = os.path.join(DATA_DIR, 'user.csv')
-    with open(filename, mode='w+', newline='', encoding='utf-8') as f:
+    with open(filename, mode='w+', newline='', encoding = "utf-8") as f:
         file_writer = csv.writer(f, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         file_writer.writerow(user_fields)
         file_writer.writerows(users)
@@ -60,8 +60,8 @@ def generate_documents():
     fake = Faker()
     approved = True
     document_fields = ['id', 'type', 'file', 'approved', 'userId']
+    id = 1
     for user in users:
-
         if user[7]:
             approved = True
         else:
@@ -69,9 +69,9 @@ def generate_documents():
 
         ext = random.choice(['pdf', 'png', 'jpeg'])
 
-        document = [fake.random_number(digits=5), random.choice(['Driver License', 'Identification Card', 'Bill']), fake.file_name(extension=ext), approved, user[0]]
+        document = [id, random.choice(['Driver License', 'Identification Card', 'Bill']), fake.file_name(extension=ext), approved, user[0]]
         documents.append(document)
-        # sera necessario adicionar id do doc ao user?
+        id += 1
 
     filename = os.path.join(DATA_DIR, 'document.csv')
     with open(filename, mode='w+', newline='', encoding='utf-8') as f:
