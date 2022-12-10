@@ -43,9 +43,6 @@
               <DefaultAnnotationText>all_tables.csv</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
         </Node>
@@ -104,7 +101,7 @@ Query=final_table</DefaultAnnotationText>
     </Node>
     <Node ToolID="35">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="247" y="88" width="1082" height="1179" />
+        <Position x="245" y="88" width="1084" height="1058" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -122,7 +119,7 @@ Query=final_table</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="13">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
-            <Position x="356" y="583" />
+            <Position x="356" y="462" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -143,7 +140,7 @@ yyyy-MM-dd hh:mm:ss</DefaultAnnotationText>
         </Node>
         <Node ToolID="23">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="272" y="1063" />
+            <Position x="270" y="942" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -164,7 +161,7 @@ yyyy-MM-dd hh:mm:ss</DefaultAnnotationText>
         </Node>
         <Node ToolID="25">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="272" y="1183" />
+            <Position x="270" y="1062" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -185,7 +182,7 @@ yyyy-MM-dd hh:mm:ss</DefaultAnnotationText>
         </Node>
         <Node ToolID="36">
           <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-            <Position x="571" y="137" width="733" height="1046" />
+            <Position x="571" y="137" width="733" height="949" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -208,10 +205,10 @@ yyyy-MM-dd hh:mm:ss</DefaultAnnotationText>
               <Properties>
                 <Configuration joinByRecordPos="False">
                   <JoinInfo connection="Left">
-                    <Field field="id" />
+                    <Field field="countryId" />
                   </JoinInfo>
                   <JoinInfo connection="Right">
-                    <Field field="userId" />
+                    <Field field="id" />
                   </JoinInfo>
                   <SelectConfiguration>
                     <Configuration outputConnection="Join">
@@ -222,43 +219,11 @@ yyyy-MM-dd hh:mm:ss</DefaultAnnotationText>
                         <SelectField field="Left_name" selected="True" rename="user_name" input="Left_" />
                         <SelectField field="Left_date" selected="True" rename="date_of_birth" input="Left_" />
                         <SelectField field="Left_countryId" selected="True" rename="country_id" input="Left_" />
-                        <SelectField field="Right_id" selected="True" rename="document_id" input="Right_" />
-                        <SelectField field="Right_type" selected="True" rename="document_type" input="Right_" />
-                        <SelectField field="Right_approved" selected="True" rename="document_approved" input="Right_" />
-                        <SelectField field="Right_userId" selected="False" input="Right_" />
-                        <SelectField field="*Unknown" selected="True" />
-                      </SelectFields>
-                    </Configuration>
-                  </SelectConfiguration>
-                </Configuration>
-                <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
-                </Annotation>
-              </Properties>
-              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
-            </Node>
-            <Node ToolID="11">
-              <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-                <Position x="716" y="283" />
-              </GuiSettings>
-              <Properties>
-                <Configuration joinByRecordPos="False">
-                  <JoinInfo connection="Left">
-                    <Field field="country_id" />
-                  </JoinInfo>
-                  <JoinInfo connection="Right">
-                    <Field field="id" />
-                  </JoinInfo>
-                  <SelectConfiguration>
-                    <Configuration outputConnection="Join">
-                      <OrderChanged value="False" />
-                      <CommaDecimal value="False" />
-                      <SelectFields>
-                        <SelectField field="Left_country_id" selected="False" input="Left_" />
-                        <SelectField field="Right_id" selected="True" rename="country_id" input="Right_" />
+                        <SelectField field="Right_id" selected="False" rename="document_id" input="Right_" />
                         <SelectField field="Right_name" selected="True" rename="country_name" input="Right_" />
+                        <SelectField field="Right_type" selected="False" rename="document_type" input="Right_" />
+                        <SelectField field="Right_approved" selected="False" rename="document_approved" input="Right_" />
+                        <SelectField field="Right_userId" selected="False" input="Right_" />
                         <SelectField field="*Unknown" selected="True" />
                       </SelectFields>
                     </Configuration>
@@ -274,7 +239,7 @@ yyyy-MM-dd hh:mm:ss</DefaultAnnotationText>
             </Node>
             <Node ToolID="15">
               <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-                <Position x="596" y="547" />
+                <Position x="606" y="414" />
               </GuiSettings>
               <Properties>
                 <Configuration joinByRecordPos="False">
@@ -310,7 +275,7 @@ yyyy-MM-dd hh:mm:ss</DefaultAnnotationText>
             </Node>
             <Node ToolID="16">
               <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-                <Position x="716" y="667" />
+                <Position x="702" y="510" />
               </GuiSettings>
               <Properties>
                 <Configuration joinByRecordPos="False">
@@ -343,7 +308,7 @@ yyyy-MM-dd hh:mm:ss</DefaultAnnotationText>
             </Node>
             <Node ToolID="18">
               <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-                <Position x="872" y="871" />
+                <Position x="882" y="738" />
               </GuiSettings>
               <Properties>
                 <Configuration joinByRecordPos="False">
@@ -381,7 +346,7 @@ yyyy-MM-dd hh:mm:ss</DefaultAnnotationText>
             </Node>
             <Node ToolID="19">
               <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-                <Position x="980" y="1003" />
+                <Position x="966" y="894" />
               </GuiSettings>
               <Properties>
                 <Configuration joinByRecordPos="False">
@@ -447,7 +412,7 @@ yyyy-MM-dd hh:mm:ss</DefaultAnnotationText>
             </Node>
             <Node ToolID="29">
               <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-                <Position x="980" y="1099" />
+                <Position x="966" y="1002" />
               </GuiSettings>
               <Properties>
                 <Configuration joinByRecordPos="False">
@@ -481,7 +446,7 @@ yyyy-MM-dd hh:mm:ss</DefaultAnnotationText>
             </Node>
             <Node ToolID="33">
               <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-                <Position x="1088" y="1051" />
+                <Position x="1062" y="954" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -500,7 +465,7 @@ yyyy-MM-dd hh:mm:ss</DefaultAnnotationText>
             </Node>
             <Node ToolID="17">
               <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-                <Position x="788" y="787" />
+                <Position x="798" y="630" />
               </GuiSettings>
               <Properties>
                 <Configuration joinByRecordPos="False">
@@ -535,7 +500,7 @@ yyyy-MM-dd hh:mm:ss</DefaultAnnotationText>
         </Node>
         <Node ToolID="14">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
-            <Position x="452" y="583" />
+            <Position x="451" y="462" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -558,7 +523,7 @@ yyyy-MM-dd hh:mm:ss</DefaultAnnotationText>
     </Node>
     <Node ToolID="34">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="54" y="54" width="158" height="1275" />
+        <Position x="52" y="54" width="158" height="1154" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -576,7 +541,7 @@ yyyy-MM-dd hh:mm:ss</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="1">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="80" y="103" />
+            <Position x="79" y="103" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -621,7 +586,7 @@ from user</DefaultAnnotationText>
         </Node>
         <Node ToolID="2">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="80" y="343" />
+            <Position x="77" y="222" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -656,49 +621,9 @@ from country</DefaultAnnotationText>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
         </Node>
-        <Node ToolID="3">
-          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="80" y="223" />
-          </GuiSettings>
-          <Properties>
-            <Configuration>
-              <Passwords />
-              <File RecordLimit="" FileFormat="23">odbc:DSN=betzim-mysql|||select * 
-from document</File>
-              <FormatSpecificOptions>
-                <PreSQL />
-                <ReadCentroids>False</ReadCentroids>
-                <PreSQLOnConfig>True</PreSQLOnConfig>
-                <NoProgress>True</NoProgress>
-                <SessionReadOnly>True</SessionReadOnly>
-                <CacheData>False</CacheData>
-                <TableStyle>Quoted</TableStyle>
-                <ReadUncommitted>False</ReadUncommitted>
-                <PostSQL />
-              </FormatSpecificOptions>
-            </Configuration>
-            <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText>DSN=betzim-mysql
-Query=select * 
-from document</DefaultAnnotationText>
-              <Left value="False" />
-            </Annotation>
-            <MetaInfo connection="Output">
-              <RecordInfo>
-                <Field name="id" source="File: odbc:DSN=betzim-mysql|||select * &#xA;from document" type="Int32" />
-                <Field name="type" size="65535" source="File: odbc:DSN=betzim-mysql|||select * &#xA;from document" type="V_WString" />
-                <Field name="file" size="65535" source="File: odbc:DSN=betzim-mysql|||select * &#xA;from document" type="V_WString" />
-                <Field name="approved" size="65535" source="File: odbc:DSN=betzim-mysql|||select * &#xA;from document" type="V_WString" />
-                <Field name="userId" source="File: odbc:DSN=betzim-mysql|||select * &#xA;from document" type="Int32" />
-              </RecordInfo>
-            </MetaInfo>
-          </Properties>
-          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
-        </Node>
         <Node ToolID="4">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="80" y="583" />
+            <Position x="78" y="462" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -738,7 +663,7 @@ from event</DefaultAnnotationText>
         </Node>
         <Node ToolID="5">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="79" y="463" />
+            <Position x="77" y="342" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -774,7 +699,7 @@ from category</DefaultAnnotationText>
         </Node>
         <Node ToolID="6">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="79" y="703" />
+            <Position x="77" y="582" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -812,7 +737,7 @@ from market</DefaultAnnotationText>
         </Node>
         <Node ToolID="7">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="80" y="823" />
+            <Position x="78" y="702" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -851,7 +776,7 @@ from contract</DefaultAnnotationText>
         </Node>
         <Node ToolID="8">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="79" y="943" />
+            <Position x="77" y="822" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -893,7 +818,7 @@ from bet</DefaultAnnotationText>
         </Node>
         <Node ToolID="9">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="79" y="1063" />
+            <Position x="77" y="942" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -933,7 +858,7 @@ from trade</DefaultAnnotationText>
         </Node>
         <Node ToolID="24">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="80" y="1183" />
+            <Position x="77" y="1062" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -997,14 +922,6 @@ from trade</DefaultAnnotationText>
     </Connection>
     <Connection>
       <Origin ToolID="10" Connection="Join" />
-      <Destination ToolID="11" Connection="Left" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="2" Connection="Output" />
-      <Destination ToolID="11" Connection="Right" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="11" Connection="Join" />
       <Destination ToolID="27" Connection="Left" />
     </Connection>
     <Connection>
@@ -1064,7 +981,7 @@ from trade</DefaultAnnotationText>
       <Destination ToolID="10" Connection="Left" />
     </Connection>
     <Connection>
-      <Origin ToolID="3" Connection="Output" />
+      <Origin ToolID="2" Connection="Output" />
       <Destination ToolID="10" Connection="Right" />
     </Connection>
     <Connection>
