@@ -3,7 +3,7 @@ import pandas as pd
 import csv
 
 DATA_DIR = './data'
-NUM_ROWS_PER_SPORT = 6500
+NUM_ROWS_PER_SPORT = 1000
 
 users = []
 events = None
@@ -24,7 +24,7 @@ def truncate_dataset():
     df = pd.read_csv(filename)
     df = df.dropna(subset=['SETTLED_DATE', 'SCHEDULED_OFF'])
 
-    df_portuguese_soccer = df.loc[df['FULL_DESCRIPTION'].str.contains('Portuguese Soccer', na=False)].head(1000)
+    df_portuguese_soccer = df.loc[df['FULL_DESCRIPTION'].str.contains('Portuguese Soccer', na=False)].head(350)
     df_portuguese_soccer = df_portuguese_soccer.replace('Sp Lisbon', 'Sporting Clube de Portugal', regex=True) # fixing Betfair's ignorance
     
     df_other_soccer = df.loc[df['SPORTS_ID'] == 1 & ~df['FULL_DESCRIPTION'].str.contains('Portuguese Soccer', na=False)].head(NUM_ROWS_PER_SPORT - df_portuguese_soccer.shape[0])

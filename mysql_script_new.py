@@ -28,10 +28,10 @@ def createDB():
 def dropTables(conn, cursor):
     if conn.is_connected():
         cursor.execute(f'DROP TABLE IF EXISTS document;')
-        cursor.execute(f'DROP TABLE IF EXISTS user;')
-        cursor.execute(f'DROP TABLE IF EXISTS country;')
         cursor.execute(f'DROP TABLE IF EXISTS trade;')
         cursor.execute(f'DROP TABLE IF EXISTS bet')
+        cursor.execute(f'DROP TABLE IF EXISTS user;')
+        cursor.execute(f'DROP TABLE IF EXISTS country;')
         cursor.execute(f'DROP TABLE IF EXISTS contract;')
         cursor.execute(f'DROP TABLE IF EXISTS market;')
         cursor.execute(f'DROP TABLE IF EXISTS event;')
