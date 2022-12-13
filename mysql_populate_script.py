@@ -5,10 +5,6 @@ import sys
 import time
 import configparser
 
-def dfToListTuple(df):
-    lst = df.values.tolist()
-    return[tuple(x) for x in lst]
-
 def createDB():
     config = configparser.ConfigParser()
     config.read('config.ini')
@@ -25,11 +21,26 @@ def createDB():
     except Error as e:
         print("Error while connecting to MySQL", e)
 
-def dropTables(conn, cursor):
+def connection():
+    config = configparser.ConfigParser()
+    config.read('config.ini')
+    host = config.get('AWS RDS', 'host')
+    user = config.get('AWS RDS', 'user')
+    password = config.get('AWS RDS', 'password')
+
+    conn = msql.connect(host=host, user=user, password=password)
+
+    if conn.is_connected():
+        cursor = conn.cursor()
+        cursor.execute("USE betzim_db;")
+        print("Connected to database: ")
+    return conn, cursor
+
+def dropAllTables(conn, cursor):
     if conn.is_connected():
         cursor.execute(f'DROP TABLE IF EXISTS document;')
         cursor.execute(f'DROP TABLE IF EXISTS trade;')
-        cursor.execute(f'DROP TABLE IF EXISTS bet')
+        cursor.execute(f'DROP TABLE IF EXISTS bet;')
         cursor.execute(f'DROP TABLE IF EXISTS user;')
         cursor.execute(f'DROP TABLE IF EXISTS country;')
         cursor.execute(f'DROP TABLE IF EXISTS contract;')
@@ -37,8 +48,8 @@ def dropTables(conn, cursor):
         cursor.execute(f'DROP TABLE IF EXISTS event;')
         cursor.execute(f'DROP TABLE IF EXISTS category;')
         
-def createTable(name):
-    match name:
+def createTable(table):
+    match table:
         case "country":
             return "CREATE TABLE country(\
                 id varchar(255) NOT NULL,\
@@ -118,7 +129,7 @@ def createTable(name):
                 CONSTRAINT CONTRACT_ID FOREIGN KEY(contract_id, market_id) REFERENCES contract(id, market_id),\
                 CONSTRAINT USER_ID FOREIGN KEY (user_id) REFERENCES user(id))"
 
-def insertValueOnTable(name):
+def insertValues(name):
     match name:
         case "country":
             return "INSERT INTO betzim_db.country VALUES (%s,%s)"
@@ -139,50 +150,40 @@ def insertValueOnTable(name):
         case "bet":
             return "INSERT INTO betzim_db.bet VALUES (%s,%s,%s,%s,%s,%s,%s)"
 
-def connection():
-    config = configparser.ConfigParser()
-    config.read('config.ini')
-    host = config.get('AWS RDS', 'host')
-    user = config.get('AWS RDS', 'user')
-    password = config.get('AWS RDS', 'password')
+def getTableValues(table):
+    values = table.values.tolist()
+    tuples = []
+    for x in values:
+        tuples.append(tuple(x))
+    return values
 
-    conn = msql.connect(host=host, user=user, password=password)
-
+def importTable(conn, cursor, table_name):
+    start_time = time.time()
+    print(f":::::::::: {table_name} table :::::::::")
+    table = pd.read_csv(f'./data/{table_name}.csv', index_col=False, delimiter = ',', encoding = "ISO-8859-1")
+    lst = getTableValues(table)
     if conn.is_connected():
-        cursor = conn.cursor()
-        cursor.execute("USE betzim_db;")
-        record = cursor.fetchone()
-        print("You're connected to database: ", record)
-    return conn, cursor
-
-def importTable(conn, cursor, name):
-    start = time.time()
-    print(f":::::::::: {name} table :::::::::")
-    table = pd.read_csv(f'./data/{name}.csv', index_col=False, delimiter = ',', encoding = "ISO-8859-1")
-    lst = dfToListTuple(table)
-    if conn.is_connected():
-        print('Creating table....')
-        cursor.execute(createTable(name))
-        print("Table is created....")
+        print('Creating table')
+        cursor.execute(createTable(table_name))
+        print("Table created")
         print("Inserting records")
-        sql = insertValueOnTable(name)
+        sql = insertValues(table_name)
         cursor.executemany(sql, lst)
         conn.commit()
-        print("Records inserted....")
-    end = time.time()
-    print(f"Took {end-start} seconds")
+        print("Records inserted")
+    end_time = time.time()
+    print(f"Duration: {end_time-start_time} seconds")
 
 def main():
     createDB()
     conn, cursor = connection()
 
-    dropTables(conn, cursor)
+    dropAllTables(conn, cursor)
 
-    for i, arg in enumerate(sys.argv):
-        if arg != "mysql_script_new.py":
-            importTable(conn, cursor, arg)
+    tables = ["country", "user", "document", "category", "event", "market", "contract", "bet", "trade"]
 
-# country, user, document, category  
+    for table in tables:
+        importTable(conn, cursor, table) 
 
 if __name__ == "__main__":
     main()
