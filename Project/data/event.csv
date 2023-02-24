@@ -1,0 +1,745 @@
+id,name,startTime,endTime,category
+1,Algerian Soccer/Ligue 1/Fixtures 06 September/ES Setif v USM Bel Abbes,2014-09-06 18:00:00,2014-09-06 20:01:31,soccer
+2,Argentinian Soccer/Argentinian Primera B Nacional/Fixtures 03 September/Argentinos Juniors v Aldosivi,2014-09-03 21:15:00,2014-09-03 23:08:25,soccer
+3,Argentinian Soccer/Argentinian Primera B Nacional/Fixtures 03 September/Atl Tucuman v CA Temperley,2014-09-03 00:30:00,2014-09-03 03:46:34,soccer
+4,Argentinian Soccer/Argentinian Primera B Nacional/Fixtures 03 September/Ferro Carril Oeste v Gimnasia Jujuy,2014-09-03 21:00:00,2014-09-03 22:54:00,soccer
+5,Argentinian Soccer/Argentinian Primera B Nacional/Fixtures 07 September/CA Temperley v Santamarina,2014-09-07 21:00:00,2014-09-07 22:53:16,soccer
+6,Argentinian Soccer/Argentinian Primera Division/Fixtures 01 September / Arsenal FC v Banfield,2014-09-01 22:15:00,2014-09-02 00:07:13,soccer
+7,Argentinian Soccer/Argentinian Primera Division/Fixtures 01 September / Lanus v Olimpo,2014-09-01 20:00:00,2014-09-01 21:58:00,soccer
+8,Argentinian Soccer/Argentinian Primera Division/Fixtures 01 September/San Lorenzo v River Plate,2014-09-01 00:30:00,2014-09-01 02:21:42,soccer
+9,Argentinian Soccer/Argentinian Primera Division/Fixtures 02 September / Tigre v Quilmes,2014-09-02 00:30:00,2014-09-02 02:21:31,soccer
+10,Argentinian Soccer/Argentinian Primera Division/Fixtures 06 September/Atletico Rafaela v Gimnasia La Plata,2014-09-06 18:00:00,2014-09-06 19:53:01,soccer
+11,Argentinian Soccer/Argentinian Primera Division/Fixtures 06 September/Estudiantes v Belgrano,2014-09-06 21:10:00,2014-09-06 23:05:09,soccer
+12,Argentinian Soccer/Argentinian Primera Division/Fixtures 06 September/Velez v Newells,2014-09-06 20:00:00,2014-09-06 21:55:03,soccer
+13,Argentinian Soccer/Argentinian Primera Division/Fixtures 07 September/Banfield v Independiente,2014-09-06 23:15:00,2014-09-07 01:10:46,soccer
+14,Argentinian Soccer/Argentinian Primera Division/Fixtures 07 September/Racing Club v Lanus,2014-09-07 20:15:00,2014-09-07 22:12:41,soccer
+15,Armenian Soccer/Armenian First League/Fixtures 01 September/Shirak FC II v Gandzasar FC II,2014-09-01 13:00:00,2014-09-01 14:48:10,soccer
+16,Asean Basketball League 2014/Fixtures 03 September/Indonesia Warriors v Singapore Slingers,2014-09-03 12:00:00,2014-09-03 13:51:39,basket
+17,Asean Basketball League 2014/Fixtures 05 September/Malaysia Dragons v Laskar Dreya,2014-09-05 12:00:00,2014-09-05 13:53:45,basket
+18,Asean Basketball League 2014/Fixtures 06 September/Indonesia Warriors v Bangkok City,2014-09-06 09:00:00,2014-09-06 10:51:48,basket
+19,Asean Basketball League 2014/Fixtures 07 September/Saigon Heat v Malaysia Dragons,2014-09-07 11:00:00,2014-09-07 13:07:26,basket
+20,Azerbaijan Soccer/Azerbaijan I Divizion/Fixtures 06 September/Qaradag Lokbatan FK v FK Energetik Mingecevir,2014-09-06 12:30:00,2014-09-06 14:24:23,soccer
+21,Belgian Soccer/Belgian Second Division/Fixtures 03 September / Woluwe-Zaventem v Dessel Sport,2014-09-03 16:30:00,2014-09-03 18:11:38,soccer
+22,Belgian Soccer/Belgian Second Division/Fixtures 03 September/Antwerp v RC Mechelen,2014-09-03 18:30:00,2014-09-03 20:23:53,soccer
+23,Belgian Soccer/Belgian Second Division/Fixtures 03 September/White Star Bruxelles v Tubize,2014-09-03 18:30:00,2014-09-03 20:26:23,soccer
+24,Belgian Soccer/Belgian Second Division/Fixtures 06 September/Dessel Sport v Antwerp,2014-09-06 17:30:00,2014-09-06 19:15:16,soccer
+25,Belgian Soccer/Belgian Second Division/Fixtures 06 September/Mons v Roeselare,2014-09-06 18:00:00,2014-09-06 19:49:59,soccer
+26,Belgian Soccer/Belgian Second Division/Fixtures 07 September/Eendracht Aalst v Sint Truiden,2014-09-07 13:00:00,2014-09-07 14:45:31,soccer
+27,Brazilian Soccer/Brazilian Cup/Fixtures 02 September/ABC v Vasco da Gama,2014-09-02 22:30:00,2014-09-03 00:23:38,soccer
+28,Brazilian Soccer/Brazilian Cup/Fixtures 03 September/Santa Rita v Cruzeiro,2014-09-03 22:30:00,2014-09-04 00:22:15,soccer
+29,Brazilian Soccer/Brazilian Cup/Fixtures 04 September/Ceara v Botafogo RJ,2014-09-04 01:00:00,2014-09-04 03:18:40,soccer
+30,Brazilian Soccer/Brazilian Cup/Fixtures 04 September/Corinthians v Bragantino SP,2014-09-04 01:00:00,2014-09-04 02:55:01,soccer
+31,Brazilian Soccer/Brazilian Cup/Fixtures 04 September/Flamengo v Coritiba,2014-09-04 01:00:00,2014-09-04 02:56:43,soccer
+32,Brazilian Soccer/Brazilian Cup/Fixtures 05 September/Atletico MG v Palmeiras,2014-09-04 23:00:00,2014-09-05 00:52:20,soccer
+33,Brazilian Soccer/Brazilian Division 2/Fixtures 02 September/Parana v Sampaio Correa,2014-09-02 22:30:00,2014-09-03 00:21:56,soccer
+34,Brazilian Soccer/Brazilian Division 2/Fixtures 03 September/Portuguesa SP v Joinville,2014-09-02 23:30:00,2014-09-03 01:20:27,soccer
+35,Brazilian Soccer/Brazilian Division 2/Fixtures 05 September/Icasa v Ponte Preta,2014-09-05 22:30:00,2014-09-06 00:22:26,soccer
+36,Brazilian Soccer/Brazilian Division 2/Fixtures 06 September/America MG v Vasco da Gama,2014-09-06 19:10:00,2014-09-06 21:06:16,soccer
+37,Brazilian Soccer/Brazilian Division 2/Fixtures 06 September/Avai v America RN,2014-09-06 19:10:00,2014-09-06 21:02:55,soccer
+38,Brazilian Soccer/Brazilian Division 2/Fixtures 06 September/Nautico v Bragantino SP,2014-09-06 19:10:00,2014-09-06 20:57:24,soccer
+39,Brazilian Soccer/Brazilian Division 2/Fixtures 07 September/Oeste v Ceara,2014-09-07 00:00:00,2014-09-07 01:52:48,soccer
+40,Brazilian Soccer/Campeonato/Fixtures 06 September/Flamengo v Gremio,2014-09-06 21:30:00,2014-09-06 23:23:03,soccer
+41,Brazilian Soccer/Campeonato/Fixtures 06 September/Santos v Vitoria BA,2014-09-06 21:30:00,2014-09-06 23:30:12,soccer
+42,Brazilian Soccer/Campeonato/Fixtures 07 September/Atletico MG v Botafogo RJ,2014-09-07 19:00:00,2014-09-07 20:56:45,soccer
+43,Brazilian Soccer/Campeonato/Fixtures 07 September/Bahia v Coritiba,2014-09-07 21:30:00,2014-09-07 23:22:20,soccer
+44,Brazilian Soccer/Campeonato/Fixtures 07 September/Criciuma v Corinthians,2014-09-07 19:00:00,2014-09-07 20:53:33,soccer
+45,Brazilian Soccer/Campeonato/Fixtures 07 September/Fluminense v Cruzeiro,2014-09-07 19:00:00,2014-09-07 20:55:09,soccer
+46,Brazilian Soccer/Copa Paulista/Fixtures 04 September/Red Bull Brasil v Independente SP,2014-09-03 23:00:00,2014-09-04 00:22:37,soccer
+47,Brazilian Soccer/Copa Paulista/Fixtures 07 September/Osasco v Sao Bento,2014-09-07 13:00:00,2014-09-07 14:49:58,soccer
+48,Brazilian Soccer/Serie C/Fixtures 02 September/Guarani SP v Juventude,2014-09-02 00:00:00,2014-09-02 01:52:54,soccer
+49,Brazilian Soccer/Serie C/Fixtures 06 September/Guaratingueta v Guarani SP,2014-09-06 18:00:00,2014-09-06 19:52:10,soccer
+50,Brazilian Soccer/Serie C/Fixtures 06 September/Juventude v Macae,2014-09-06 21:30:00,2014-09-06 23:23:46,soccer
+51,Brazilian Soccer/Serie C/Fixtures 31 August   /Treze v Aguia de Maraba FC,2014-08-31 22:00:00,2014-09-01 00:10:09,soccer
+52,CAF African Cup of Nations/Fixtures 06 September/Ghana v Uganda,2014-09-06 16:00:00,2014-09-06 17:58:39,soccer
+53,CAF African Cup of Nations/Fixtures 06 September/Tunisia v Botswana,2014-09-06 19:15:00,2014-09-06 21:11:09,soccer
+54,Chilean Soccer/Chilean Cup/Fixtures 03 September/Huachipato v Lota Schwager,2014-09-03 20:00:00,2014-09-03 21:58:40,soccer
+55,Club Friendlies 2014/Fixtures 06 September/Phoenix Hagen v Bonn,2014-09-06 15:00:00,2014-09-06 16:55:52,basket
+56,Colombian Soccer/Colombian Primera B/Fixtures 01 September/Bogota v CCD Tulua,2014-09-01 18:00:00,2014-09-01 19:48:51,soccer
+57,Colombian Soccer/Colombian Primera B/Fixtures 04 September/CD Barranquilla v Bogota,2014-09-04 20:00:00,2014-09-04 21:48:42,soccer
+58,Colombian Soccer/Colombian Primera B/Fixtures 04 September/CD Real Santander v Cucuta Deportivo,2014-09-04 14:00:00,2014-09-04 15:52:18,soccer
+59,Colombian Soccer/Colombian Primera B/Fixtures 04 September/Llaneros FC v CD Uni de Popayan,2014-09-04 16:30:00,2014-09-04 18:22:00,soccer
+60,Colombian Soccer/Liga Postobon/Fixtures 01 September/Millonarios v Santa Fe,2014-09-01 00:45:00,2014-09-01 02:38:17,soccer
+61,Colombian Soccer/Liga Postobon/Fixtures 04 September / Alianza Petrolera v La Equidad,2014-09-04 20:15:00,2014-09-04 21:23:45,soccer
+62,Colombian Soccer/Liga Postobon/Fixtures 06 September/Santa Fe v Tolima,2014-09-06 22:30:00,2014-09-07 00:24:26,soccer
+63,Colombian Soccer/Liga Postobon/Fixtures 07 September/Once Caldas v Envigado,2014-09-07 01:00:00,2014-09-07 03:54:58,soccer
+64,Copa Centroamericana/Fixtures 03 September / Costa Rica v Nicaragua,2014-09-03 21:30:00,2014-09-03 23:21:05,soccer
+65,Copa Sudamericana/Fixtures 03 September/Gimnasia La Plata v Estudiantes,2014-09-03 17:00:00,2014-09-03 17:49:30,soccer
+66,Copa Sudamericana/Fixtures 04 September/Godoy Cruz v River Plate,2014-09-04 00:15:00,2014-09-04 02:05:58,soccer
+67,Copa Sudamericana/Fixtures 04 September/Vitoria BA v Sport Recife,2014-09-04 01:00:00,2014-09-04 02:55:07,soccer
+68,Copa Sudamericana/Fixtures 05 September/Bahia v Internacional,2014-09-05 01:00:00,2014-09-05 02:52:57,soccer
+69,Copa Sudamericana/Fixtures 05 September/Rosario Central v Boca Juniors,2014-09-05 00:15:00,2014-09-05 02:14:14,soccer
+70,Copa Sudamericana/Fixtures 05 September/Sao Paulo v Criciuma,2014-09-04 23:00:00,2014-09-05 00:53:20,soccer
+71,Czech Soccer/Czech 3. Liga/Fixtures 03 September/Bohemians Prague v Kraluv Dvur,2014-09-03 15:00:00,2014-09-03 16:52:34,soccer
+72,Czech Soccer/Czech 3. Liga/Fixtures 03 September/Meteor Prague v SK Viktorie Jirny,2014-09-03 15:30:00,2014-09-03 17:24:56,soccer
+73,Czech Soccer/Czech 3. Liga/Fixtures 03 September/Union 2013 v Zenit Caslav,2014-09-03 15:00:00,2014-09-03 16:54:16,soccer
+74,Czech Soccer/Czech 3. Liga/Fixtures 03 September/Vysehrad v TJ Sokol Zapy,2014-09-03 15:00:00,2014-09-03 16:39:56,soccer
+75,Czech Soccer/Czech 3. Liga/Fixtures 05 September/Kromeriz v FK Slavia Orlova-Lutyne,2014-09-05 16:00:00,2014-09-05 17:52:15,soccer
+76,Czech Soccer/Czech 3. Liga/Fixtures 06 September/Loko Vltavin v FK TJ Stechovice,2014-09-06 08:15:00,2014-09-06 10:05:01,soccer
+77,Czech Soccer/Czech 3. Liga/Fixtures 06 September/Prostejov v 1. FC Slovacko II,2014-09-06 08:15:00,2014-09-06 10:03:44,soccer
+78,Czech Soccer/Czech Republic Cup/Fixtures 05 September/Usti nad Labem v Slovan Liberec,2014-09-05 14:00:00,2014-09-05 15:14:47,soccer
+79,Czech Soccer/Czech Republic Cup/Fixtures 05 September/Vlasim v Pribram,2014-09-05 15:00:00,2014-09-05 16:49:58,soccer
+80,Czech Soccer/Czech Republic Cup/Fixtures 06 September/Bohemians Prague v Teplice,2014-09-06 08:15:00,2014-09-06 10:01:13,soccer
+81,Czech Soccer/Czech Republic Cup/Fixtures 07 September/Zivanice v Sparta Prague,2014-09-07 15:00:00,2014-09-07 15:48:51,soccer
+82,Czech Soccer/Czech U19 League/Fixtures 06 September/Ceske Budejovice U19 v Bohemians 1905 U19,2014-09-06 09:00:00,2014-09-06 10:59:25,soccer
+83,Czech Soccer/Czech U19 League/Fixtures 06 September/FC Banik Ostrava U19 v FC Vysocina Jihlava U19,2014-09-06 11:00:00,2014-09-06 12:54:21,soccer
+84,Czech Soccer/Czech U19 League/Fixtures 06 September/FK Jablonec U19 v FK Teplice U19,2014-09-06 09:00:00,2014-09-06 10:52:06,soccer
+85,Czech Soccer/Czech U21 League/Fixtures 01 September/FC Banik Ostrava U21 v SK Slavia Praha U21,2014-09-01 11:00:00,2014-09-01 12:52:46,soccer
+86,Czech Soccer/Czech U21 League/Fixtures 01 September/FC Vysocina Jihlava U21 v FC Viktoria Plzen U21,2014-09-01 14:00:00,2014-09-01 15:53:09,soccer
+87,Czech Soccer/Czech U21 League/Fixtures 01 September/FC Zbrojovka Brno U21 v Ceske Budejovice U21,2014-09-01 13:00:00,2014-09-01 13:12:41,soccer
+88,Czech Soccer/Czech U21 League/Fixtures 01 September/FK Dukla Praha U21 v FK Mlada Boleslav U21,2014-09-01 12:00:00,2014-09-01 13:52:13,soccer
+89,Czech Soccer/Gambrinus Liga/Fixtures 02 September/Teplice v Ceske Budejovice,2014-09-02 16:00:00,2014-09-02 17:49:24,soccer
+90,Danish Soccer/Danish Division 1/Fixtures 04 September/Vejle v Vendsyssel FF,2014-09-04 17:00:00,2014-09-04 18:52:32,soccer
+91,Danish Soccer/Danish Reserve League/Fixtures 01 September/Randers (Res) v Viborg (Res),2014-09-01 14:00:00,2014-09-01 15:51:15,soccer
+92,Danish Soccer/Danish Reserve League/Fixtures 01 September/Vejle BK (Res) v Silkeborg (Res),2014-09-01 13:00:00,2014-09-01 14:45:29,soccer
+93,Danish Soccer/Danish Reserve League/Fixtures 02 September/AGF (Res) v Hobro IK (Res),2014-09-02 12:00:00,2014-09-02 13:49:01,soccer
+94,Danish Soccer/Danish Reserve League/Fixtures 02 September/FC Nordsj (Res) v FC Vestsjaelland (Res),2014-09-02 11:30:00,2014-09-02 13:21:12,soccer
+95,Danish Soccer/Danish Reserve League/Fixtures 03 September/Odense (Res) v SonderjyskE (Res),2014-09-03 13:00:00,2014-09-03 14:44:18,soccer
+96,Danish Soccer/Danish Superliga/Fixtures 01 September/Hobro v FC Vestsjaelland,2014-09-01 17:00:00,2014-09-01 18:52:40,soccer
+97,Danish Soccer/Division 2 East/Fixtures 06 September/B 1908 v B93,2014-09-06 11:00:00,2014-09-06 12:53:00,soccer
+98,Danish Soccer/Division 2 East/Fixtures 06 September/BSV v Frem,2014-09-06 13:00:00,2014-09-06 14:52:30,soccer
+99,Danish Soccer/Division 2 East/Fixtures 06 September/HIK v Fremad Amager,2014-09-06 11:00:00,2014-09-06 12:50:19,soccer
+100,Danish Soccer/Division 2 East/Fixtures 07 September/FC Helsingor v GVI,2014-09-07 11:00:00,2014-09-07 12:51:21,soccer
+101,Dutch Soccer/Dutch Jong Eredivisie/Fixtures 01 September/Almere City (youth) v Jong NEC Oss,2014-09-01 16:30:00,2014-09-01 18:26:45,soccer
+102,Dutch Soccer/Dutch Jong Eredivisie/Fixtures 01 September/Jong AZ Alkmaar v Jong Heracles,2014-09-01 16:30:00,2014-09-01 18:20:23,soccer
+103,Dutch Soccer/Dutch Jong Eredivisie/Fixtures 01 September/Jong PEC Zwolle v Jong Groningen,2014-09-01 16:30:00,2014-09-01 18:19:58,soccer
+104,Dutch Soccer/Dutch Jong Eredivisie/Fixtures 01 September/Jong VVV Helmond Sport v Jong NAC Breda,2014-09-01 16:30:00,2014-09-01 18:26:25,soccer
+105,Ecuadorian Soccer/Ecuadorian Primera A/Fixtures 06 September/Deportivo Cuenca v Univ Catolica (Ecu),2014-09-06 01:00:00,2014-09-06 02:54:07,soccer
+106,English Soccer/Conference North/Fixtures 06 September/Hednesford v Stockport,2014-09-06 14:00:00,2014-09-06 15:54:02,soccer
+107,English Soccer/Johnstones Paint Trophy/Fixtures 02 September/AFC Wimbledon v Southend,2014-09-02 18:45:00,2014-09-02 20:40:46,soccer
+108,English Soccer/Johnstones Paint Trophy/Fixtures 02 September/Accrington S v Carlisle,2014-09-02 18:45:00,2014-09-02 20:38:32,soccer
+109,English Soccer/Johnstones Paint Trophy/Fixtures 02 September/Barnsley v York City,2014-09-02 18:45:00,2014-09-02 20:39:50,soccer
+110,English Soccer/Johnstones Paint Trophy/Fixtures 02 September/Cheltenham v Oxford Utd,2014-09-02 18:45:00,2014-09-02 20:39:55,soccer
+111,English Soccer/Johnstones Paint Trophy/Fixtures 02 September/Crewe v Rochdale,2014-09-02 18:30:00,2014-09-02 20:21:28,soccer
+112,English Soccer/Johnstones Paint Trophy/Fixtures 02 September/Oldham v Bradford,2014-09-02 18:30:00,2014-09-02 20:16:50,soccer
+113,English Soccer/Johnstones Paint Trophy/Fixtures 02 September/Peterborough v Leyton Orient,2014-09-02 18:45:00,2014-09-02 20:39:34,soccer
+114,English Soccer/Johnstones Paint Trophy/Fixtures 02 September/Preston v Shrewsbury,2014-09-02 18:45:00,2014-09-02 20:41:35,soccer
+115,English Soccer/Johnstones Paint Trophy/Fixtures 02 September/Scunthorpe v Chesterfield,2014-09-02 18:45:00,2014-09-02 20:41:55,soccer
+116,English Soccer/Johnstones Paint Trophy/Fixtures 02 September/Stevenage v Gillingham,2014-09-02 18:45:00,2014-09-02 20:39:02,soccer
+117,English Soccer/Johnstones Paint Trophy/Fixtures 02 September/Wycombe v Coventry,2014-09-02 18:45:00,2014-09-02 20:40:22,soccer
+118,English Soccer/Johnstones Paint Trophy/Fixtures 02 September/Yeovil v Portsmouth,2014-09-02 18:45:00,2014-09-02 20:40:59,soccer
+119,English Soccer/League One/Fixtures 05 September/Coventry v Gillingham,2014-09-05 19:00:00,2014-09-05 20:54:09,soccer
+120,English Soccer/League One/Fixtures 06 September/Bradford v Yeovil,2014-09-06 14:00:00,2014-09-06 15:53:22,soccer
+121,English Soccer/League One/Fixtures 06 September/Oldham v Fleetwood Town,2014-09-06 14:00:00,2014-09-06 15:53:02,soccer
+122,English Soccer/League One/Fixtures 06 September/Peterborough v Port Vale,2014-09-06 14:00:00,2014-09-06 15:54:56,soccer
+123,English Soccer/League One/Fixtures 06 September/Walsall v Colchester,2014-09-06 14:00:00,2014-09-06 15:53:41,soccer
+124,English Soccer/League Two/Fixtures 06 September/Exeter v Mansfield,2014-09-06 14:00:00,2014-09-06 15:57:07,soccer
+125,English Soccer/League Two/Fixtures 06 September/Luton v Plymouth,2014-09-06 11:15:00,2014-09-06 13:11:09,soccer
+126,English Soccer/League Two/Fixtures 06 September/Southend v Oxford Utd,2014-09-06 14:00:00,2014-09-06 15:59:38,soccer
+127,English Soccer/League Two/Fixtures 06 September/Stevenage v York City,2014-09-06 14:00:00,2014-09-06 15:55:49,soccer
+128,English Soccer/League Two/Fixtures 06 September/Wycombe v Bury,2014-09-06 14:00:00,2014-09-06 16:05:55,soccer
+129,English Soccer/League Two/Fixtures 07 September/Burton v Portsmouth,2014-09-07 11:15:00,2014-09-07 13:08:16,soccer
+130,Estonian Soccer/Estonian Cup/Fixtures 02 September/Levadia Tallinn v Saue JK,2014-09-02 15:00:00,2014-09-02 16:33:03,soccer
+131,Estonian Soccer/Estonian Cup/Fixtures 02 September/Tallinna FC Dnipro v Sillamae Kalev,2014-09-02 16:00:00,2014-09-02 17:40:03,soccer
+132,Estonian Soccer/Estonian II Liga/Fixtures 01 September/Paide Linnameeskond II v JK Kaitseliit Kalev,2014-09-01 18:00:00,2014-09-01 19:54:32,soccer
+133,Euro 2016/Euro 2016 Qualifiers/Fixtures 07 September / Denmark v Armenia,2014-09-07 16:00:00,2014-09-07 16:47:12,soccer
+134,Euro 2016/Euro 2016 Qualifiers/Fixtures 07 September / Faroe Islands v Finland,2014-09-07 18:45:00,2014-09-07 19:32:37,soccer
+135,Euro 2016/Euro 2016 Qualifiers/Fixtures 07 September / Georgia v Rep of Ireland,2014-09-07 16:00:00,2014-09-07 17:53:11,soccer
+136,Euro 2016/Euro 2016 Qualifiers/Fixtures 07 September / Germany v Scotland,2014-09-07 18:45:00,2014-09-07 20:55:20,soccer
+137,Euro 2016/Euro 2016 Qualifiers/Fixtures 07 September / Gibraltar v Poland,2014-09-07 18:45:00,2014-09-07 20:36:15,soccer
+138,Euro 2016/Euro 2016 Qualifiers/Fixtures 07 September / Greece v Romania,2014-09-07 18:45:00,2014-09-07 20:39:35,soccer
+139,Euro 2016/Euro 2016 Qualifiers/Fixtures 07 September / Hungary v Northern Ireland,2014-09-07 16:00:00,2014-09-07 17:51:45,soccer
+140,Euro 2016/Euro 2016 Qualifiers/Fixtures 07 September / Portugal v Albania,2014-09-07 18:45:00,2014-09-07 20:40:44,soccer
+141,Euro 2016/Euro 2016 Qualifiers/Fixtures 07 September/Denmark v Armenia,2014-09-07 16:00:00,2014-09-07 17:50:32,soccer
+142,Euro 2016/Euro 2016 Qualifiers/Fixtures 07 September/Georgia v Rep of Ireland,2014-09-07 16:00:00,2014-09-07 17:53:19,soccer
+143,FIBA Basketball World Cup 2014,2014-08-30 10:00:00,2014-09-09 20:53:00,basket
+144,FIBA Basketball World Cup 2014/Fixtures 01 September/Argentina v Philippines,2014-09-01 15:30:00,2014-09-01 17:12:56,basket
+145,FIBA Basketball World Cup 2014/Fixtures 01 September/Brazil v Spain,2014-09-01 20:00:00,2014-09-01 21:38:39,basket
+146,FIBA Basketball World Cup 2014/Fixtures 01 September/Croatia v Senegal,2014-09-01 10:30:00,2014-09-01 12:33:46,basket
+147,FIBA Basketball World Cup 2014/Fixtures 01 September/France v Egypt,2014-09-01 16:00:00,2014-09-01 17:46:06,basket
+148,FIBA Basketball World Cup 2014/Fixtures 01 September/Iran v Serbia,2014-09-01 13:30:00,2014-09-01 15:25:10,basket
+149,FIBA Basketball World Cup 2014/Fixtures 01 September/Puerto Rico v Greece,2014-09-01 18:00:00,2014-09-01 20:12:15,basket
+150,FIBA Basketball World Cup 2014/Fixtures 02 September/Angola v Mexico,2014-09-02 11:30:00,2014-09-02 13:17:30,basket
+151,FIBA Basketball World Cup 2014/Fixtures 02 September/Australia v Lithuania,2014-09-02 15:30:00,2014-09-02 17:19:07,basket
+152,FIBA Basketball World Cup 2014/Fixtures 02 September/Finland v Dominican Republic,2014-09-02 19:30:00,2014-09-03 08:51:37,basket
+153,FIBA Basketball World Cup 2014/Fixtures 02 September/South Korea v Slovenia,2014-09-02 18:00:00,2014-09-02 19:49:32,basket
+154,FIBA Basketball World Cup 2014/Fixtures 02 September/USA v New Zealand,2014-09-02 15:30:00,2014-09-02 17:16:48,basket
+155,FIBA Basketball World Cup 2014/Fixtures 02 September/Ukraine v Turkey,2014-09-02 13:00:00,2014-09-02 14:40:30,basket
+156,FIBA Basketball World Cup 2014/Fixtures 03 September/Dominican Republic v USA,2014-09-03 19:30:00,2014-09-03 21:12:27,basket
+157,FIBA Basketball World Cup 2014/Fixtures 03 September/Egypt v Iran,2014-09-03 13:30:00,2014-09-03 15:15:10,basket
+158,FIBA Basketball World Cup 2014/Fixtures 03 September/Greece v Croatia,2014-09-03 18:00:00,2014-09-03 19:45:26,basket
+159,FIBA Basketball World Cup 2014/Fixtures 03 September/Lithuania v South Korea,2014-09-03 18:00:00,2014-09-03 19:41:40,basket
+160,FIBA Basketball World Cup 2014/Fixtures 03 September/Mexico v Australia,2014-09-03 11:30:00,2014-09-03 14:19:38,basket
+161,FIBA Basketball World Cup 2014/Fixtures 03 September/New Zealand v Ukraine,2014-09-03 13:00:00,2014-09-03 14:47:28,basket
+162,FIBA Basketball World Cup 2014/Fixtures 03 September/Philippines v Puerto Rico,2014-09-03 11:30:00,2014-09-03 14:21:40,basket
+163,FIBA Basketball World Cup 2014/Fixtures 03 September/Senegal v Argentina,2014-09-03 15:30:00,2014-09-03 17:26:15,basket
+164,FIBA Basketball World Cup 2014/Fixtures 03 September/Serbia v Brazil,2014-09-03 16:00:00,2014-09-03 18:11:51,basket
+165,FIBA Basketball World Cup 2014/Fixtures 03 September/Slovenia v Angola,2014-09-03 15:30:00,2014-09-03 17:30:04,basket
+166,FIBA Basketball World Cup 2014/Fixtures 03 September/Spain v France,2014-09-03 20:00:00,2014-09-04 07:33:48,basket
+167,FIBA Basketball World Cup 2014/Fixtures 03 September/Turkey v Finland,2014-09-03 15:30:00,2014-09-03 17:47:41,basket
+168,FIBA Basketball World Cup 2014/Fixtures 04 September/Argentina v Greece,2014-09-04 20:00:00,2014-09-05 07:15:59,basket
+169,FIBA Basketball World Cup 2014/Fixtures 04 September/Australia v Angola,2014-09-04 11:30:00,2014-09-04 13:50:48,basket
+170,FIBA Basketball World Cup 2014/Fixtures 04 September/Brazil v Egypt,2014-09-04 13:30:00,2014-09-04 15:11:27,basket
+171,FIBA Basketball World Cup 2014/Fixtures 04 September/Croatia v Puerto Rico,2014-09-04 16:00:00,2014-09-04 18:22:51,basket
+172,FIBA Basketball World Cup 2014/Fixtures 04 September/Finland v New Zealand,2014-09-04 13:00:00,2014-09-04 15:12:33,basket
+173,FIBA Basketball World Cup 2014/Fixtures 04 September/Iran v France,2014-09-04 16:00:00,2014-09-04 17:45:58,basket
+174,FIBA Basketball World Cup 2014/Fixtures 04 September/Lithuania v Slovenia,2014-09-04 19:30:00,2014-09-04 21:22:55,basket
+175,FIBA Basketball World Cup 2014/Fixtures 04 September/Senegal v Philippines,2014-09-04 12:00:00,2014-09-04 14:34:14,basket
+176,FIBA Basketball World Cup 2014/Fixtures 04 September/Serbia v Spain,2014-09-04 20:00:00,2014-09-04 21:55:28,basket
+177,FIBA Basketball World Cup 2014/Fixtures 04 September/South Korea v Mexico,2014-09-04 15:30:00,2014-09-04 17:05:16,basket
+178,FIBA Basketball World Cup 2014/Fixtures 04 September/Turkey v Dominican Republic,2014-09-04 19:30:00,2014-09-04 21:02:53,basket
+179,FIBA Basketball World Cup 2014/Fixtures 04 September/Ukraine v USA,2014-09-04 15:30:00,2014-09-04 17:19:55,basket
+180,FIBA Basketball World Cup 2014/Fixtures 06 September/Dominican Republic v Slovenia,2014-09-06 18:00:00,2014-09-06 19:52:50,basket
+181,FIBA Basketball World Cup 2014/Fixtures 06 September/France v Croatia,2014-09-06 16:00:00,2014-09-06 17:57:18,basket
+182,FIBA Basketball World Cup 2014/Fixtures 06 September/Spain v Senegal,2014-09-06 20:00:00,2014-09-06 21:43:50,basket
+183,FIBA Basketball World Cup 2014/Fixtures 06 September/USA v Mexico,2014-09-06 14:00:00,2014-09-06 15:32:30,basket
+184,FIBA Basketball World Cup 2014/Fixtures 07 September/Brazil v Argentina,2014-09-07 20:00:00,2014-09-07 21:41:47,basket
+185,FIBA Basketball World Cup 2014/Fixtures 07 September/New Zealand v Lithuania,2014-09-07 14:00:00,2014-09-07 16:05:34,basket
+186,FIBA Basketball World Cup 2014/Fixtures 07 September/Serbia v Greece,2014-09-07 16:00:00,2014-09-07 17:45:29,basket
+187,FIBA Basketball World Cup 2014/Fixtures 07 September/Turkey v Australia,2014-09-07 18:00:00,2014-09-07 20:29:36,basket
+188,Finnish Soccer/Finnish Kolmonen/Fixtures 02 September/FC Vantaa v HyPS Hyvinkaa,2014-09-02 15:45:00,2014-09-02 17:15:12,soccer
+189,Finnish Soccer/Finnish Kolmonen/Fixtures 04 September/TPK v TuWe,2014-09-04 16:15:00,2014-09-04 18:05:24,soccer
+190,Finnish Soccer/Kakkonen West/Fixtures 06 September/AIFK v VIFK,2014-09-06 10:00:00,2014-09-06 11:45:22,soccer
+191,Finnish Soccer/Ykkonen/Fixtures 01 September/FC Jazz v Ilves,2014-09-01 15:30:00,2014-09-01 17:20:10,soccer
+192,Finnish Soccer/Ykkonen/Fixtures 05 September/AC Oulu v JJK,2014-09-05 15:30:00,2014-09-05 17:14:11,soccer
+193,Finnish Soccer/Ykkonen/Fixtures 06 September/Ilves v FC Jazz,2014-09-06 16:00:00,2014-09-06 17:47:46,soccer
+194,Finnish Soccer/Ykkonen/Fixtures 07 September/PK-35 Vantaa v HIFK,2014-09-07 15:30:00,2014-09-07 17:21:06,soccer
+195,French Soccer/Ligue 2 Orange/Fixtures 01 September/Brest v Nancy,2014-09-01 18:30:00,2014-09-01 20:21:08,soccer
+196,French Soccer/Ligue National/Fixtures 05 September/Lucon v Frejus St-Raphael,2014-09-05 18:00:00,2014-09-05 19:53:07,soccer
+197,French Soccer/Ligue National/Fixtures 05 September/Marseille Consolat v Le Poire-sur-Vie,2014-09-05 18:00:00,2014-09-05 19:53:05,soccer
+198,Friendlies/Fixtures 04 September/Emmen v Heracles,2014-09-04 11:00:00,2014-09-04 12:19:18,soccer
+199,Friendlies/Fixtures 04 September/Leverkusen v St Pauli,2014-09-04 16:30:00,2014-09-04 18:10:34,soccer
+200,Friendlies/Fixtures 04 September/NEC Nijmegen v Excelsior,2014-09-04 11:30:00,2014-09-04 13:19:36,soccer
+201,Friendlies/Fixtures 04 September/SD Balmaseda FC v Ath Bilbao,2014-09-04 16:00:00,2014-09-04 17:48:50,soccer
+202,Friendlies/Fixtures 05 September/CFR Cluj v Shakhtar,2014-09-05 16:00:00,2014-09-05 17:54:11,soccer
+203,Friendlies/Fixtures 05 September/FSV Frankfurt v Eintracht Frankfurt,2014-09-05 16:30:00,2014-09-05 18:17:34,soccer
+204,Friendlies/Fixtures 05 September/Niki Volou v Torpedo Moscow,2014-09-05 17:30:00,2014-09-05 19:22:06,soccer
+205,Friendlies/Fixtures 05 September/Spartak Moscow v Crvena Zvezda,2014-09-05 15:00:00,2014-09-05 15:55:25,soccer
+206,Friendlies/Fixtures 06 September/Panathinaikos v Viitorul Constanta,2014-09-06 17:00:00,2014-09-06 18:53:47,soccer
+207,Friendlies/Fixtures 07 September/Uni Cluj v Shakhtar,2014-09-07 14:30:00,2014-09-07 16:27:26,soccer
+208,German Soccer/3 Liga/Fixtures 06 September/Dynamo Dresden v Jahn Regensburg,2014-09-06 12:00:00,2014-09-06 13:55:47,soccer
+209,German Soccer/3 Liga/Fixtures 06 September/Stuttgart Kickers v Fortuna Koln,2014-09-06 12:00:00,2014-09-06 13:50:58,soccer
+210,German Soccer/Bundesliga 2/Fixtures 01 September/G Furth v St Pauli,2014-09-01 18:15:00,2014-09-01 20:07:22,soccer
+211,German Soccer/Regionalliga Nordost/Fixtures 03 September/Carl Zeiss Jena v Viktoria Berlin,2014-09-03 16:15:00,2014-09-03 17:52:17,soccer
+212,German Soccer/Regionalliga Sudwest/Fixtures 05 September/Pirmasens v FC Astoria Walldorf,2014-09-05 17:30:00,2014-09-05 19:15:58,soccer
+213,German Soccer/Regionalliga Sudwest/Fixtures 06 September/Kaiserslautern II v Nottingen,2014-09-06 12:00:00,2014-09-06 13:49:36,soccer
+214,German Soccer/Regionalliga Sudwest/Fixtures 06 September/Kickers Offenbach v KSV Baunatal,2014-09-06 12:00:00,2014-09-06 13:47:26,soccer
+215,German Soccer/Regionalliga West/Fixtures 02 September/Wattenscheid v Mgladbach II,2014-09-02 18:15:00,2014-09-02 20:07:22,soccer
+216,German Soccer/Regionalliga West/Fixtures 07 September / Mgladbach II v FC Hennef,2014-09-07 12:00:00,2014-09-07 13:45:31,soccer
+217,Greek Soccer/Greek Super League/Fixtures 01 September/OFI v Veria,2014-09-01 18:30:00,2014-09-01 20:22:10,soccer
+218,Group A/Alphen Challenger 2014/First Round Matches/Coppejans v de Bakker,2014-09-02 18:05:00,2014-09-02 20:36:14,tennis
+219,Group A/Alphen Challenger 2014/First Round Matches/G Granollers v Androic,2014-09-03 12:37:00,2014-09-03 15:14:37,tennis
+220,Group A/Alphen Challenger 2014/First Round Matches/Gimeno-Traver v Donati,2014-09-02 13:01:00,2014-09-02 14:53:33,tennis
+221,Group A/Alphen Challenger 2014/First Round Matches/Koolhof v Sijsling,2014-09-03 11:29:00,2014-09-03 13:06:23,tennis
+222,Group A/Alphen Challenger 2014/First Round Matches/Lamasine v Carballes Baena,2014-09-02 13:50:00,2014-09-02 16:05:15,tennis
+223,Group A/Alphen Challenger 2014/First Round Matches/Mat Viola v Munoz-De La Nava,2014-09-02 12:08:00,2014-09-02 13:35:22,tennis
+224,Group A/Alphen Challenger 2014/First Round Matches/Mektic v Sels,2014-09-02 10:49:00,2014-09-02 12:47:12,tennis
+225,Group A/Alphen Challenger 2014/First Round Matches/Middelkoop v Podlipnik-Castillo,2014-09-03 10:45:00,2014-09-03 11:49:06,tennis
+226,Group A/Alphen Challenger 2014/First Round Matches/R Haase v Ramirez Hidalgo,2014-09-03 16:55:00,2014-09-03 18:04:10,tennis
+227,Group A/Alphen Challenger 2014/First Round Matches/S Diez v Huta Galung,2014-09-03 15:24:00,2014-09-03 16:40:56,tennis
+228,Group A/Alphen Challenger 2014/First Round Matches/Wunner v Van Der Duim,2014-09-03 12:07:00,2014-09-03 13:39:59,tennis
+229,Group A/Alphen Challenger 2014/First Round Matches/Y Mertens v Michon,2014-09-02 10:38:00,2014-09-02 11:38:42,tennis
+230,Group A/Alphen Challenger 2014/Quarter Final Matches/Gimeno-Traver v Lamasine,2014-09-05 13:06:00,2014-09-05 14:47:48,tennis
+231,Group A/Alphen Challenger 2014/Quarter Final Matches/Hanescu v Coppejans,2014-09-05 16:05:00,2014-09-05 17:40:29,tennis
+232,Group A/Alphen Challenger 2014/Quarter Final Matches/Huta Galung v Van Der Duim,2014-09-05 11:50:00,2014-09-05 12:53:16,tennis
+233,Group A/Alphen Challenger 2014/Quarter Final Matches/Munoz-De La Nava v Sijsling,2014-09-05 18:03:00,2014-09-05 19:15:49,tennis
+234,Group A/Alphen Challenger 2014/Second Round Matches/Gimeno-Traver v Androic,2014-09-04 10:44:00,2014-09-04 11:47:04,tennis
+235,Group A/Alphen Challenger 2014/Second Round Matches/Giustino v Coppejans,2014-09-04 12:05:00,2014-09-04 12:58:49,tennis
+236,Group A/Alphen Challenger 2014/Second Round Matches/Hanescu v Middelkoop,2014-09-04 15:34:00,2014-09-04 17:06:37,tennis
+237,Group A/Alphen Challenger 2014/Second Round Matches/Munoz-De La Nava v Westerhof,2014-09-04 11:19:00,2014-09-04 12:59:04,tennis
+238,Group A/Alphen Challenger 2014/Second Round Matches/R Haase v Huta Galung,2014-09-04 13:21:00,2014-09-04 15:21:37,tennis
+239,Group A/Alphen Challenger 2014/Second Round Matches/Van Der Duim v Michon,2014-09-04 12:02:00,2014-09-04 13:08:42,tennis
+240,Group A/Alphen Challenger 2014/Semi Final Matches/Hanescu v Munoz-De La Nava,2014-09-06 14:07:00,2014-09-06 15:45:56,tennis
+241,Group A/Alphen Challenger 2014/The Final/Huta Galung v Munoz-De La Nava,2014-09-07 12:10:00,2014-09-07 13:40:25,tennis
+242,Group A/Brasov Challenger 2014/First Round Matches/A Ungur v Crivoi,2014-09-03 13:48:00,2014-09-03 15:03:48,tennis
+243,Group A/Brasov Challenger 2014/First Round Matches/Copil v Krstin,2014-09-03 10:30:00,2014-09-03 11:58:23,tennis
+244,Group A/Brasov Challenger 2014/First Round Matches/Dima v J Pospisil,2014-09-03 12:12:00,2014-09-03 13:30:41,tennis
+245,Group A/Brasov Challenger 2014/First Round Matches/Fortuna v Ciorcila,2014-09-03 11:47:00,2014-09-03 13:25:59,tennis
+246,Group A/Brasov Challenger 2014/First Round Matches/G Melzer v M Jankovic,2014-09-02 07:59:00,2014-09-02 09:35:12,tennis
+247,Group A/Brasov Challenger 2014/First Round Matches/Grigelis v Pouille,2014-09-02 07:59:00,2014-09-02 10:22:05,tennis
+248,Group A/Brasov Challenger 2014/First Round Matches/J Eysseric v Karatsev,2014-09-03 09:44:00,2014-09-03 11:35:26,tennis
+249,Group A/Brasov Challenger 2014/First Round Matches/Machado v Mertl,2014-09-03 08:05:00,2014-09-03 10:15:20,tennis
+250,Group A/Brasov Challenger 2014/First Round Matches/R Marcora v Riba,2014-09-03 08:05:00,2014-09-03 10:06:12,tennis
+251,Group A/Brasov Challenger 2014/First Round Matches/Reuter v Torroni,2014-09-03 08:05:00,2014-09-03 09:31:08,tennis
+252,Group A/Brasov Challenger 2014/First Round Matches/Rodriguez - Pace v Buchanan,2014-09-02 10:27:00,2014-09-02 11:35:11,tennis
+253,Group A/Brasov Challenger 2014/First Round Matches/Rudnev v Sikora,2014-09-02 08:00:00,2014-09-02 09:59:58,tennis
+254,Group A/Brasov Challenger 2014/First Round Matches/Rufin v Cipolla,2014-09-02 10:36:00,2014-09-02 12:31:37,tennis
+255,Group A/Brasov Challenger 2014/Quarter Final Matches/A Haider-Maurer v Luncanu,2014-09-05 13:06:00,2014-09-05 14:21:25,tennis
+256,Group A/Brasov Challenger 2014/Quarter Final Matches/A Ungur v J Pospisil,2014-09-05 11:19:00,2014-09-05 12:51:03,tennis
+257,Group A/Brasov Challenger 2014/Quarter Final Matches/Karatsev v Sikora,2014-09-05 08:07:00,2014-09-05 09:52:23,tennis
+258,Group A/Brasov Challenger 2014/Quarter Final Matches/Rufin v Grigelis,2014-09-05 08:07:00,2014-09-05 11:02:38,tennis
+259,Group A/Brasov Challenger 2014/Second Round Matches/A Haider-Maurer v Reuter,2014-09-04 08:47:00,2014-09-04 10:48:48,tennis
+260,Group A/Brasov Challenger 2014/Second Round Matches/A Ungur v Machado,2014-09-04 11:11:00,2014-09-04 12:40:06,tennis
+261,Group A/Brasov Challenger 2014/Second Round Matches/Copil v Karatsev,2014-09-04 10:30:00,2014-09-04 11:50:25,tennis
+262,Group A/Brasov Challenger 2014/Second Round Matches/Fortuna v J Pospisil,2014-09-04 11:11:00,2014-09-04 12:20:33,tennis
+263,Group A/Brasov Challenger 2014/Second Round Matches/G Melzer v Rufin,2014-09-04 08:47:00,2014-09-04 10:14:03,tennis
+264,Group A/Brasov Challenger 2014/Second Round Matches/Grigelis v R Marcora,2014-09-04 12:03:00,2014-09-04 13:26:38,tennis
+265,Group A/Brasov Challenger 2014/Second Round Matches/Luncanu v Buchanan,2014-09-04 12:54:00,2014-09-04 15:16:21,tennis
+266,Group A/Brasov Challenger 2014/Second Round Matches/Sikora v Bourgue,2014-09-04 09:08:00,2014-09-04 10:47:17,tennis
+267,Group A/Brasov Challenger 2014/Semi Final Matches/A Haider-Maurer v J Pospisil,2014-09-06 11:04:00,2014-09-06 12:44:19,tennis
+268,Group A/Brasov Challenger 2014/Semi Final Matches/Karatsev v Rufin,2014-09-06 09:03:00,2014-09-06 10:48:15,tennis
+269,Group A/Brasov Challenger 2014/The Final/A Haider-Maurer v Rufin,2014-09-07 13:07:00,2014-09-07 14:17:36,tennis
+270,Group A/Coupe Banque Nationale 2014/Qualifying Matches/B Pera v S Crawford,2014-09-06 14:00:00,2014-09-06 15:10:47,tennis
+271,Group A/Coupe Banque Nationale 2014/Qualifying Matches/Chirico v S Crawford,2014-09-07 17:15:00,2014-09-07 18:13:09,tennis
+272,Group A/Coupe Banque Nationale 2014/Qualifying Matches/El Tabakh v Muhammad,2014-09-07 16:05:00,2014-09-07 17:52:31,tennis
+273,Group A/Coupe Banque Nationale 2014/Qualifying Matches/Hibino v Broomfield,2014-09-06 20:04:00,2014-09-06 21:13:40,tennis
+274,Group A/Coupe Banque Nationale 2014/Qualifying Matches/Hibino v Marand,2014-09-07 18:26:00,2014-09-07 19:14:04,tennis
+275,Group A/Coupe Banque Nationale 2014/Qualifying Matches/Kinard v Marand,2014-09-06 19:27:00,2014-09-06 21:56:08,tennis
+276,Group A/Coupe Banque Nationale 2014/Qualifying Matches/Krejcikova v Mar Sanchez,2014-09-07 19:26:00,2014-09-07 21:23:20,tennis
+277,Group A/Coupe Banque Nationale 2014/Qualifying Matches/Melichar v C Zhao,2014-09-06 17:46:00,2014-09-06 19:52:35,tennis
+278,Group A/Coupe Banque Nationale 2014/Qualifying Matches/Petrick v Mar Sanchez,2014-09-06 21:24:00,2014-09-06 22:56:12,tennis
+279,Group A/Coupe Banque Nationale 2014/Qualifying Matches/Savchuk v C Zhao,2014-09-07 18:01:00,2014-09-07 19:55:16,tennis
+280,Group A/Coupe Banque Nationale 2014/Qualifying Matches/Savchuk v D Muresan,2014-09-06 17:55:00,2014-09-06 19:14:42,tennis
+281,Group A/Coupe Banque Nationale 2014/Qualifying Matches/Vankova v A Mueller,2014-09-06 15:23:00,2014-09-06 16:28:13,tennis
+282,Group A/Coupe Banque Nationale 2014/Qualifying Matches/Vankova v Martincova,2014-09-07 15:00:00,2014-09-07 17:03:54,tennis
+283,Group A/Genova Challenger 2014/First Round Matches/And Beck v Gaio,2014-09-03 12:24:00,2014-09-03 13:51:12,tennis
+284,Group A/Genova Challenger 2014/First Round Matches/Arnaboldi v Al Bedene,2014-09-02 09:35:00,2014-09-02 12:02:30,tennis
+285,Group A/Genova Challenger 2014/First Round Matches/Dzumhur v Kovalik,2014-09-03 11:00:00,2014-09-03 12:11:07,tennis
+286,Group A/Genova Challenger 2014/First Round Matches/Galovic v M Delic,2014-09-03 09:04:00,2014-09-03 10:46:09,tennis
+287,Group A/Genova Challenger 2014/First Round Matches/Giannessi v Andreozzi,2014-09-02 09:36:00,2014-09-02 11:01:01,tennis
+288,Group A/Genova Challenger 2014/First Round Matches/Ignatik v Volandri,2014-09-02 13:42:00,2014-09-02 15:14:39,tennis
+289,Group A/Genova Challenger 2014/First Round Matches/Kubler v G Elias,2014-09-02 09:35:00,2014-09-02 11:14:50,tennis
+290,Group A/Genova Challenger 2014/First Round Matches/Mat Trevisan v Naso,2014-09-03 14:04:00,2014-09-03 16:52:30,tennis
+291,Group A/Genova Challenger 2014/First Round Matches/Montanes v Fucsovics,2014-09-03 09:06:00,2014-09-03 10:33:55,tennis
+292,Group A/Genova Challenger 2014/First Round Matches/Ramos-Vinolas v Ad Virgili,2014-09-03 10:49:00,2014-09-03 13:31:46,tennis
+293,Group A/Genova Challenger 2014/First Round Matches/Setkic v Picco,2014-09-02 11:37:00,2014-09-02 13:28:33,tennis
+294,Group A/Genova Challenger 2014/First Round Matches/Starace v Lindell,2014-09-03 15:13:00,2014-09-03 16:29:33,tennis
+295,Group A/Genova Challenger 2014/First Round Matches/Troicki v Du Brown,2014-09-03 18:36:00,2014-09-03 19:56:47,tennis
+296,Group A/Genova Challenger 2014/Quarter Final Matches/And Beck v Cecchinato,2014-09-05 12:08:00,2014-09-05 13:30:47,tennis
+297,Group A/Genova Challenger 2014/Quarter Final Matches/Fucsovics v Kubler,2014-09-05 13:44:00,2014-09-05 16:25:39,tennis
+298,Group A/Genova Challenger 2014/Quarter Final Matches/M Delic v Troicki,2014-09-05 16:38:00,2014-09-05 19:00:53,tennis
+299,Group A/Genova Challenger 2014/Quarter Final Matches/Ramos-Vinolas v Al Bedene,2014-09-05 19:14:00,2014-09-05 20:36:22,tennis
+300,Group A/Genova Challenger 2014/Second Round Matches/And Beck v Lindell,2014-09-04 11:42:00,2014-09-04 13:13:35,tennis
+301,Group A/Genova Challenger 2014/Second Round Matches/Cecchinato v Paire,2014-09-04 11:15:00,2014-09-04 12:26:26,tennis
+302,Group A/Genova Challenger 2014/Second Round Matches/Dzumhur v M Delic,2014-09-04 09:06:00,2014-09-04 11:02:26,tennis
+303,Group A/Genova Challenger 2014/Second Round Matches/Fucsovics v Andreozzi,2014-09-04 09:05:00,2014-09-04 11:26:18,tennis
+304,Group A/Genova Challenger 2014/Second Round Matches/Hajek v Al Bedene,2014-09-04 13:27:00,2014-09-04 14:47:42,tennis
+305,Group A/Genova Challenger 2014/Second Round Matches/Ignatik v Kubler,2014-09-04 11:07:00,2014-09-04 12:57:39,tennis
+306,Group A/Genova Challenger 2014/Second Round Matches/Mat Trevisan v Troicki,2014-09-04 12:38:00,2014-09-04 15:25:09,tennis
+307,Group A/Genova Challenger 2014/Semi Final Matches/And Beck v M Delic,2014-09-06 16:06:00,2014-09-06 17:32:17,tennis
+308,Group A/Genova Challenger 2014/The Final/Ramos-Vinolas v M Delic,2014-09-07 15:53:00,2014-09-07 17:36:26,tennis
+309,Group A/Hong Kong Open 2014/Qualifying Matches/Aoyama v Eguchi,2014-09-07 04:04:00,2014-09-07 05:15:29,tennis
+310,Group A/Hong Kong Open 2014/Qualifying Matches/Ar Rodionova v Eguchi,2014-09-07 06:47:00,2014-09-07 08:22:41,tennis
+311,Group A/Hong Kong Open 2014/Qualifying Matches/Ar Rodionova v Yau Ng,2014-09-06 09:05:00,2014-09-06 10:11:42,tennis
+312,Group A/Hong Kong Open 2014/Qualifying Matches/Gajdosova v Ho Wu,2014-09-07 06:20:00,2014-09-07 07:30:51,tennis
+313,Group A/Hong Kong Open 2014/Qualifying Matches/Gajdosova v Y Sema,2014-09-06 04:24:00,2014-09-06 05:30:50,tennis
+314,Group A/Hong Kong Open 2014/Qualifying Matches/Imanishi v E Sema,2014-09-06 01:58:00,2014-09-06 04:22:54,tennis
+315,Group A/Hong Kong Open 2014/Qualifying Matches/K Zhang v Shapatava,2014-09-06 06:44:00,2014-09-06 08:16:33,tennis
+316,Group A/Hong Kong Open 2014/Qualifying Matches/Kostova v Linette,2014-09-07 04:00:00,2014-09-07 06:07:39,tennis
+317,Group A/Hong Kong Open 2014/Qualifying Matches/Martic v Namigata,2014-09-06 10:22:00,2014-09-06 11:19:58,tennis
+318,Group A/Hong Kong Open 2014/Qualifying Matches/Namigata v N Kolar,2014-09-07 05:51:00,2014-09-07 07:00:53,tennis
+319,Group A/Hong Kong Open 2014/Qualifying Matches/Paszek v W Hsu,2014-09-06 05:43:00,2014-09-06 06:54:00,tennis
+320,Group A/Hong Kong Open 2014/Qualifying Matches/Q Wang v Kulichkova,2014-09-06 02:02:00,2014-09-06 03:29:57,tennis
+321,Group A/Hong Kong Open 2014/Qualifying Matches/Spackman v N Kolar,2014-09-06 07:07:00,2014-09-06 08:26:52,tennis
+322,Group A/Hong Kong Open 2014/Qualifying Matches/Webley-Smith v Kostova,2014-09-06 08:20:00,2014-09-06 11:03:02,tennis
+323,Group A/Hong Kong Open 2014/Qualifying Matches/X Han v Linette,2014-09-06 09:08:00,2014-09-06 11:06:44,tennis
+324,Group A/Hong Kong Open 2014/Qualifying Matches/Y Xu v Bychkova,2014-09-07 02:02:00,2014-09-07 03:56:09,tennis
+325,Group A/Hong Kong Open 2014/Qualifying Matches/Yaf Wang v L Zhu,2014-09-06 05:13:00,2014-09-06 06:31:23,tennis
+326,Group A/Medellin Challenger 2014/First Round Matches/Clezar v R Olivo,2014-09-03 20:07:00,2014-09-03 21:19:38,tennis
+327,Group A/Medellin Challenger 2014/First Round Matches/Ghem v Romboli,2014-09-02 17:55:00,2014-09-02 19:12:51,tennis
+328,Group A/Medellin Challenger 2014/First Round Matches/Jarry v Odesnik,2014-09-03 16:01:00,2014-09-03 17:50:44,tennis
+329,Group A/Medellin Challenger 2014/First Round Matches/Konstantinov v A Krajicek,2014-09-02 16:01:00,2014-09-02 16:52:51,tennis
+330,Group A/Medellin Challenger 2014/First Round Matches/Lapentti v N Barrientos,2014-09-03 17:48:00,2014-09-03 19:51:00,tennis
+331,Group A/Medellin Challenger 2014/First Round Matches/M Cuevas v Lipovsek Puches,2014-09-02 17:09:00,2014-09-02 18:32:12,tennis
+332,Group A/Medellin Challenger 2014/First Round Matches/Quintero v Bagnis,2014-09-02 23:33:00,2014-09-03 00:50:21,tennis
+333,Group A/Medellin Challenger 2014/First Round Matches/Salamanca v Spir,2014-09-02 17:34:00,2014-09-02 18:48:23,tennis
+334,Group A/Medellin Challenger 2014/First Round Matches/Turini v J Hernandez,2014-09-02 16:05:00,2014-09-02 17:38:35,tennis
+335,Group A/Medellin Challenger 2014/Quarter Final Matches/Alejandro Gonzalez v A Krajicek,2014-09-05 22:02:00,2014-09-06 01:06:10,tennis
+336,Group A/Medellin Challenger 2014/Quarter Final Matches/Clezar v Souza,2014-09-05 20:08:00,2014-09-05 21:48:21,tennis
+337,Group A/Medellin Challenger 2014/Quarter Final Matches/Lama v Bagnis,2014-09-05 17:32:00,2014-09-05 18:12:12,tennis
+338,Group A/Medellin Challenger 2014/Second Round Matches/Alejandro Gonzalez v F De Paula,2014-09-04 23:49:00,2014-09-05 01:03:34,tennis
+339,Group A/Medellin Challenger 2014/Second Round Matches/Clezar v Lipovsek Puches,2014-09-04 16:01:00,2014-09-04 17:29:13,tennis
+340,Group A/Medellin Challenger 2014/Second Round Matches/Ghem v Odesnik,2014-09-04 18:46:00,2014-09-04 20:37:13,tennis
+341,Group A/Medellin Challenger 2014/Second Round Matches/J Hernandez v Souza,2014-09-04 20:54:00,2014-09-04 23:33:01,tennis
+342,Group A/Medellin Challenger 2014/Second Round Matches/Lama v G Mina,2014-09-04 17:45:00,2014-09-04 19:57:30,tennis
+343,Group A/Medellin Challenger 2014/Second Round Matches/Lapentti v A Krajicek,2014-09-04 16:00:00,2014-09-04 18:29:42,tennis
+344,Group A/Medellin Challenger 2014/Second Round Matches/M Arevalo v Salamanca,2014-09-04 19:12:00,2014-09-04 20:41:47,tennis
+345,Group A/Medellin Challenger 2014/Second Round Matches/Trungelliti v Bagnis,2014-09-04 16:00:00,2014-09-04 18:43:08,tennis
+346,Group A/Medellin Challenger 2014/Semi Final Matches/A Krajicek v Ghem,2014-09-06 17:04:00,2014-09-06 18:52:26,tennis
+347,Group A/Medellin Challenger 2014/Semi Final Matches/Souza v Bagnis,2014-09-06 19:03:00,2014-09-06 20:37:27,tennis
+348,Group A/Medellin Challenger 2014/The Final/A Krajicek v Souza,2014-09-07 16:08:00,2014-09-07 18:00:48,tennis
+349,Group A/Shanghai Challenger 2014/First Round Matches/D Wu v Matsui,2014-09-02 02:10:00,2014-09-02 03:27:04,tennis
+350,Group A/Shanghai Challenger 2014/First Round Matches/Duckworth v E Ymer,2014-09-02 03:49:00,2014-09-02 05:36:24,tennis
+351,Group A/Shanghai Challenger 2014/First Round Matches/Hy Chung v Udomchoke,2014-09-03 04:30:00,2014-09-03 05:28:58,tennis
+352,Group A/Shanghai Challenger 2014/First Round Matches/Jor Thompson v Zhe Li,2014-09-03 05:17:00,2014-09-03 07:36:52,tennis
+353,Group A/Shanghai Challenger 2014/First Round Matches/Kibi v San Singh,2014-09-03 06:15:00,2014-09-03 07:12:32,tennis
+354,Group A/Shanghai Challenger 2014/First Round Matches/L Huang v Uchiyama,2014-09-02 02:13:00,2014-09-02 04:25:49,tennis
+355,Group A/Shanghai Challenger 2014/First Round Matches/Niki v Takeuchi,2014-09-03 07:26:00,2014-09-03 08:04:36,tennis
+356,Group A/Shanghai Challenger 2014/First Round Matches/Soeda v J Jung,2014-09-03 03:03:00,2014-09-03 05:03:32,tennis
+357,Group A/Shanghai Challenger 2014/First Round Matches/T Yang v Edmund,2014-09-03 07:43:00,2014-09-03 09:07:42,tennis
+358,Group A/Shanghai Challenger 2014/First Round Matches/Ti Chen v Y Bhambri,2014-09-03 06:23:00,2014-09-03 08:09:32,tennis
+359,Group A/Shanghai Challenger 2014/First Round Matches/Vanni v Statham,2014-09-03 06:25:00,2014-09-03 08:30:03,tennis
+360,Group A/Shanghai Challenger 2014/First Round Matches/We Zheng v Fabbiano,2014-09-02 02:15:00,2014-09-02 03:33:56,tennis
+361,Group A/Shanghai Challenger 2014/First Round Matches/Y Bai v S Zhong,2014-09-02 03:39:00,2014-09-02 05:01:39,tennis
+362,Group A/Shanghai Challenger 2014/First Round Matches/Yui Ito v Devvarman,2014-09-03 08:55:00,2014-09-03 10:44:13,tennis
+363,Group A/Shanghai Challenger 2014/Quarter Final Matches/D Wu v Devvarman,2014-09-05 03:17:00,2014-09-05 04:32:37,tennis
+364,Group A/Shanghai Challenger 2014/Quarter Final Matches/Soeda v Fabbiano,2014-09-05 04:43:00,2014-09-05 06:15:51,tennis
+365,Group A/Shanghai Challenger 2014/Quarter Final Matches/Vanni v Y Bhambri,2014-09-05 05:45:00,2014-09-05 08:10:47,tennis
+366,Group A/Shanghai Challenger 2014/Quarter Final Matches/Yo Nishioka v Udomchoke,2014-09-05 03:08:00,2014-09-05 05:29:07,tennis
+367,Group A/Shanghai Challenger 2014/Second Round Matches/D Wu v Y Bai,2014-09-04 02:07:00,2014-09-04 04:19:47,tennis
+368,Group A/Shanghai Challenger 2014/Second Round Matches/Duckworth v Yo Nishioka,2014-09-04 06:25:00,2014-09-04 08:05:23,tennis
+369,Group A/Shanghai Challenger 2014/Second Round Matches/Jor Thompson v Fabbiano,2014-09-04 02:07:00,2014-09-04 03:31:39,tennis
+370,Group A/Shanghai Challenger 2014/Second Round Matches/Niki v Devvarman,2014-09-04 03:43:00,2014-09-04 06:12:34,tennis
+371,Group A/Shanghai Challenger 2014/Second Round Matches/Soeda v Uchiyama,2014-09-04 06:34:00,2014-09-04 07:52:50,tennis
+372,Group A/Shanghai Challenger 2014/Second Round Matches/T Yang v Y Bhambri,2014-09-04 04:07:00,2014-09-04 06:18:24,tennis
+373,Group A/Shanghai Challenger 2014/Second Round Matches/Udomchoke v Millman,2014-09-04 04:44:00,2014-09-04 06:54:04,tennis
+374,Group A/Shanghai Challenger 2014/Second Round Matches/Vanni v San Singh,2014-09-04 02:12:00,2014-09-04 03:53:56,tennis
+375,Group A/Shanghai Challenger 2014/Semi Final Matches/Fabbiano v Yo Nishioka,2014-09-06 06:07:00,2014-09-06 07:48:06,tennis
+376,Group A/Shanghai Challenger 2014/Semi Final Matches/Vanni v Devvarman,2014-09-06 03:33:00,2014-09-06 05:47:01,tennis
+377,Group A/Shanghai Challenger 2014/The Final/Yo Nishioka v Devvarman,2014-09-07 03:10:00,2014-09-07 06:16:53,tennis
+378,Group A/St Remy Challenger 2014/First Round Matches/Botzer v Y Marti,2014-09-02 10:29:00,2014-09-02 11:34:05,tennis
+379,Group A/St Remy Challenger 2014/First Round Matches/Burquier v K De Schepper,2014-09-03 10:29:00,2014-09-03 12:34:04,tennis
+380,Group A/St Remy Challenger 2014/First Round Matches/Crepaldi v Stakhovsky,2014-09-03 10:01:00,2014-09-03 11:33:57,tennis
+381,Group A/St Remy Challenger 2014/First Round Matches/Donskoy v Gerasimov,2014-09-03 12:53:00,2014-09-03 14:44:43,tennis
+382,Group A/St Remy Challenger 2014/First Round Matches/F Martin v Serra,2014-09-02 13:06:00,2014-09-02 14:07:00,tennis
+383,Group A/St Remy Challenger 2014/First Round Matches/Kravchuk v Bemelmans,2014-09-02 09:06:00,2014-09-02 11:25:14,tennis
+384,Group A/St Remy Challenger 2014/First Round Matches/Mahut v Ri Becker,2014-09-02 16:08:00,2014-09-02 17:32:04,tennis
+385,Group A/St Remy Challenger 2014/First Round Matches/Molchanov v Klec,2014-09-03 11:48:00,2014-09-03 13:15:06,tennis
+386,Group A/St Remy Challenger 2014/First Round Matches/Moriya v Millot,2014-09-02 09:07:00,2014-09-02 10:51:23,tennis
+387,Group A/St Remy Challenger 2014/First Round Matches/P Mathieu v A Zverev,2014-09-03 15:51:00,2014-09-03 16:58:17,tennis
+388,Group A/St Remy Challenger 2014/First Round Matches/Vaisse v M Fischer,2014-09-02 14:11:00,2014-09-02 15:30:20,tennis
+389,Group A/St Remy Challenger 2014/First Round Matches/Veger v P Herbert,2014-09-02 11:09:00,2014-09-02 12:51:32,tennis
+390,Group A/St Remy Challenger 2014/Quarter Final Matches/A Zverev v P Herbert,2014-09-05 08:41:00,2014-09-05 11:51:06,tennis
+391,Group A/St Remy Challenger 2014/Quarter Final Matches/Chazal v Stakhovsky,2014-09-05 15:57:00,2014-09-05 17:07:50,tennis
+392,Group A/St Remy Challenger 2014/Quarter Final Matches/Mahut v Gombos,2014-09-05 13:13:00,2014-09-05 15:35:08,tennis
+393,Group A/St Remy Challenger 2014/Quarter Final Matches/Millot v Molchanov,2014-09-05 11:05:00,2014-09-05 13:56:11,tennis
+394,Group A/St Remy Challenger 2014/Second Round Matches/F Martin v Gombos,2014-09-04 09:04:00,2014-09-04 10:14:13,tennis
+395,Group A/St Remy Challenger 2014/Second Round Matches/Gerasimov v Chazal,2014-09-04 12:31:00,2014-09-04 14:32:52,tennis
+396,Group A/St Remy Challenger 2014/Second Round Matches/Gicquel v Stakhovsky,2014-09-04 15:53:00,2014-09-04 17:37:15,tennis
+397,Group A/St Remy Challenger 2014/Second Round Matches/Molchanov v K De Schepper,2014-09-04 11:06:00,2014-09-04 12:13:12,tennis
+398,Group A/St Remy Challenger 2014/Semi Final Matches/Millot v Stakhovsky,2014-09-06 13:41:00,2014-09-06 14:49:51,tennis
+399,Group A/St Remy Challenger 2014/Semi Final Matches/P Herbert v Mahut,2014-09-06 12:07:00,2014-09-06 13:25:32,tennis
+400,Group A/St Remy Challenger 2014/The Final/Mahut v Millot,2014-09-07 13:06:00,2014-09-07 15:37:17,tennis
+401,Group A/Suzhou Ladies Open 2014/First Round Matches/Buyukakcay v L Kichenok,2014-09-02 09:04:00,2014-09-02 11:58:28,tennis
+402,Group A/Suzhou Ladies Open 2014/First Round Matches/Eguchi v Ar Rodionova,2014-09-01 05:29:00,2014-09-01 08:08:31,tennis
+403,Group A/Suzhou Ladies Open 2014/First Round Matches/Friedsam v Xin,2014-09-01 04:28:00,2014-09-01 05:16:28,tennis
+404,Group A/Suzhou Ladies Open 2014/First Round Matches/Hozumi v N Kichenok,2014-09-03 02:36:00,2014-09-03 03:42:57,tennis
+405,Group A/Suzhou Ladies Open 2014/First Round Matches/L Zhang v Shapatava,2014-09-01 02:50:00,2014-09-01 04:39:52,tennis
+406,Group A/Suzhou Ladies Open 2014/First Round Matches/L Zhu v Kozlova,2014-09-01 03:57:00,2014-09-01 04:58:22,tennis
+407,Group A/Suzhou Ladies Open 2014/First Round Matches/Pervak v Y Duan,2014-09-02 09:09:00,2014-09-02 10:50:18,tennis
+408,Group A/Suzhou Ladies Open 2014/First Round Matches/Yaf Wang v F Liu,2014-09-01 02:50:00,2014-09-01 03:43:27,tennis
+409,Group A/Suzhou Ladies Open 2014/Quarter Final Matches/Cepelova v S Zheng,2014-09-04 02:36:00,2014-09-04 04:26:31,tennis
+410,Group A/Suzhou Ladies Open 2014/Quarter Final Matches/Eguchi v R Ozaki,2014-09-04 04:39:00,2014-09-04 06:20:05,tennis
+411,Group A/Suzhou Ladies Open 2014/Quarter Final Matches/Y Duan v Mayr-Achleitner,2014-09-04 04:42:00,2014-09-04 06:04:31,tennis
+412,Group A/Suzhou Ladies Open 2014/Second Round Matches/Cepelova v Hozumi,2014-09-03 06:38:00,2014-09-03 07:51:33,tennis
+413,Group A/Suzhou Ladies Open 2014/Second Round Matches/Friedsam v Martic,2014-09-03 04:12:00,2014-09-03 05:23:12,tennis
+414,Group A/Suzhou Ladies Open 2014/Second Round Matches/L Kichenok v Eguchi,2014-09-03 04:15:00,2014-09-03 05:26:22,tennis
+415,Group A/Suzhou Ladies Open 2014/Second Round Matches/L Zhang v Kozlova,2014-09-03 03:43:00,2014-09-03 06:21:12,tennis
+416,Group A/Suzhou Ladies Open 2014/Second Round Matches/Linette v Mayr-Achleitner,2014-09-03 06:06:00,2014-09-03 08:17:23,tennis
+417,Group A/Suzhou Ladies Open 2014/Second Round Matches/Y Duan v F Liu,2014-09-03 05:42:00,2014-09-03 07:38:18,tennis
+418,Group A/Suzhou Ladies Open 2014/Semi Final Matches/Cepelova v Friedsam,2014-09-05 02:38:00,2014-09-05 03:52:12,tennis
+419,Group A/Suzhou Ladies Open 2014/Semi Final Matches/Eguchi v Y Duan,2014-09-05 04:06:00,2014-09-05 05:55:52,tennis
+420,Group A/Tashkent Open 2014/Qualifying Matches/Folts v L Kichenok,2014-09-06 08:57:00,2014-09-06 10:16:36,tennis
+421,Group A/Tashkent Open 2014/Qualifying Matches/Kalashnikova v L Kichenok,2014-09-07 09:06:00,2014-09-07 10:16:56,tennis
+422,Group A/Tashkent Open 2014/Qualifying Matches/M Gasparyan v R Ozaki,2014-09-07 07:25:00,2014-09-07 09:28:05,tennis
+423,Group A/Tashkent Open 2014/Qualifying Matches/Putintseva v Kalashnikova,2014-09-06 09:30:00,2014-09-06 11:22:56,tennis
+424,Group A/Tashkent Open 2014/Qualifying Matches/Raina v R Ozaki,2014-09-06 09:07:00,2014-09-06 11:07:20,tennis
+425,Group A/Tashkent Open 2014/Qualifying Matches/Sirotkina v M Gasparyan,2014-09-06 07:22:00,2014-09-06 09:15:02,tennis
+426,Group A/Tashkent Open 2014/Qualifying Matches/Tsurenko v Kuwata,2014-09-07 06:02:00,2014-09-07 07:13:27,tennis
+427,Group A/Tashkent Open 2014/Qualifying Matches/Tsurenko v Lykina,2014-09-06 06:11:00,2014-09-06 07:13:41,tennis
+428,Group A/Tashkent Open 2014/Qualifying Matches/Vangelova v Kuwata,2014-09-06 06:15:00,2014-09-06 07:09:45,tennis
+429,Group A/Tashkent Open 2014/Qualifying Matches/Zanevska v Ekshibarova,2014-09-06 06:09:00,2014-09-06 06:45:43,tennis
+430,Group A/Tashkent Open 2014/Qualifying Matches/Zanevska v N Kichenok,2014-09-07 06:01:00,2014-09-07 08:52:55,tennis
+431,Group A/US Open 2014,2014-08-25 15:00:00,2014-09-08 23:07:35,tennis
+432,Group A/US Open 2014/Mens Tournament,2014-08-25 15:00:00,2014-09-08 23:07:22,tennis
+433,Group A/US Open 2014/Mens Tournament/Doubles Matches/Berlocq/Mayer v Dodig/Melo,2014-09-03 18:00:00,2014-09-03 21:38:23,tennis
+434,Group A/US Open 2014/Mens Tournament/Doubles Matches/Bryan/Bryan v Granollers/Lopez,2014-09-07 16:30:00,2014-09-07 18:06:15,tennis
+435,Group A/US Open 2014/Mens Tournament/Doubles Matches/Bryan/Bryan v Lipsky/Ram,2014-09-04 16:00:00,2014-09-04 18:07:01,tennis
+436,Group A/US Open 2014/Mens Tournament/Doubles Matches/Bryan/Bryan v Marrero/Verdasco,2014-09-02 21:00:00,2014-09-03 00:02:51,tennis
+437,Group A/US Open 2014/Mens Tournament/Doubles Matches/Dodig/Melo v Granollers/Lopez,2014-09-04 16:30:00,2014-09-04 19:07:00,tennis
+438,Group A/US Open 2014/Mens Tournament/Doubles Matches/Granollers/Lopez v Peya/Soares,2014-09-03 15:00:00,2014-09-03 16:58:17,tennis
+439,Group A/US Open 2014/Mens Tournament/Doubles Matches/Kukushkin/Venus v Peya/Soares,2014-09-01 16:30:00,2014-09-01 18:06:18,tennis
+440,Group A/US Open 2014/Mens Tournament/Doubles Matches/Lipsky/Ram v Butorac/Klaasen,2014-09-02 15:00:00,2014-09-02 16:31:23,tennis
+441,Group A/US Open 2014/Mens Tournament/Doubles Matches/Pospisil/Sock v Berlocq/Mayer,2014-09-01 16:30:00,2014-09-01 17:41:08,tennis
+442,Group A/US Open 2014/Mens Tournament/Fourth Round Matches/Bautista Agut v Federer,2014-09-02 23:00:00,2014-09-03 01:18:16,tennis
+443,Group A/US Open 2014/Mens Tournament/Fourth Round Matches/Bautista Agut v Federer/Game Betting/Set 02,2014-09-02 23:00:00,2014-09-03 00:32:31,tennis
+444,Group A/US Open 2014/Mens Tournament/Fourth Round Matches/Bautista Agut v Federer/Game Betting/Set 03,2014-09-02 23:00:00,2014-09-03 01:18:10,tennis
+445,Group A/US Open 2014/Mens Tournament/Fourth Round Matches/Berdych v Thiem,2014-09-02 19:30:00,2014-09-03 00:53:53,tennis
+446,Group A/US Open 2014/Mens Tournament/Fourth Round Matches/G Dimitrov v Monfils,2014-09-02 17:30:00,2014-09-02 20:47:19,tennis
+447,Group A/US Open 2014/Mens Tournament/Fourth Round Matches/G Dimitrov v Monfils/Game Betting/Set 01,2014-09-02 17:30:00,2014-09-02 18:39:44,tennis
+448,Group A/US Open 2014/Mens Tournament/Fourth Round Matches/G Dimitrov v Monfils/Game Betting/Set 02,2014-09-02 17:30:00,2014-09-02 19:43:18,tennis
+449,Group A/US Open 2014/Mens Tournament/Fourth Round Matches/Ma Cilic v G Simon,2014-09-02 17:30:00,2014-09-03 08:49:35,tennis
+450,Group A/US Open 2014/Mens Tournament/Fourth Round Matches/Ma Cilic v G Simon/Game Betting/Set 02,2014-09-02 17:30:00,2014-09-02 20:06:08,tennis
+451,Group A/US Open 2014/Mens Tournament/Fourth Round Matches/Ma Cilic v G Simon/Game Betting/Set 03,2014-09-02 17:30:00,2014-09-02 21:11:01,tennis
+452,Group A/US Open 2014/Mens Tournament/Fourth Round Matches/Ma Cilic v G Simon/Game Betting/Set 05,2014-09-02 17:30:00,2014-09-02 22:32:23,tennis
+453,Group A/US Open 2014/Mens Tournament/Fourth Round Matches/N Djokovic v Kohlschreiber,2014-09-01 16:30:00,2014-09-01 18:59:37,tennis
+454,Group A/US Open 2014/Mens Tournament/Fourth Round Matches/Nishikori v Raonic,2014-09-02 00:30:00,2014-09-02 06:27:03,tennis
+455,Group A/US Open 2014/Mens Tournament/Fourth Round Matches/S Wawrinka v Robredo,2014-09-01 20:00:00,2014-09-02 00:36:21,tennis
+456,Group A/US Open 2014/Mens Tournament/Fourth Round Matches/S Wawrinka v Robredo/Game Betting/Set 01,2014-09-01 20:00:00,2014-09-01 22:04:21,tennis
+457,Group A/US Open 2014/Mens Tournament/Fourth Round Matches/S Wawrinka v Robredo/Game Betting/Set 03,2014-09-01 20:00:00,2014-09-01 23:17:02,tennis
+458,Group A/US Open 2014/Mens Tournament/Fourth Round Matches/Tsonga v A Murray,2014-09-01 18:00:00,2014-09-01 21:08:11,tennis
+459,Group A/US Open 2014/Mens Tournament/Fourth Round Matches/Tsonga v A Murray/Game Betting/Set 02,2014-09-01 18:00:00,2014-09-01 20:05:56,tennis
+460,Group A/US Open 2014/Mens Tournament/Player Specials,2014-08-25 15:00:00,2014-09-03 23:29:31,tennis
+461,Group A/US Open 2014/Mens Tournament/Quarter Final Matches/Berdych v Ma Cilic,2014-09-04 17:30:00,2014-09-04 20:48:49,tennis
+462,Group A/US Open 2014/Mens Tournament/Quarter Final Matches/Berdych v Ma Cilic/Game Betting/Set 02,2014-09-04 17:30:00,2014-09-04 19:13:37,tennis
+463,Group A/US Open 2014/Mens Tournament/Quarter Final Matches/Monfils v Federer,2014-09-05 00:00:00,2014-09-05 03:39:01,tennis
+464,Group A/US Open 2014/Mens Tournament/Quarter Final Matches/Monfils v Federer/Game Betting/Set 01,2014-09-05 00:00:00,2014-09-05 00:53:42,tennis
+465,Group A/US Open 2014/Mens Tournament/Quarter Final Matches/Monfils v Federer/Game Betting/Set 02,2014-09-05 00:00:00,2014-09-05 01:16:23,tennis
+466,Group A/US Open 2014/Mens Tournament/Quarter Final Matches/Monfils v Federer/Game Betting/Set 04,2014-09-05 00:00:00,2014-09-05 03:11:55,tennis
+467,Group A/US Open 2014/Mens Tournament/Quarter Final Matches/Monfils v Federer/Game Betting/Set 05,2014-09-05 00:00:00,2014-09-05 03:38:53,tennis
+468,Group A/US Open 2014/Mens Tournament/Quarter Final Matches/N Djokovic v A Murray,2014-09-04 00:30:00,2014-09-04 07:39:45,tennis
+469,Group A/US Open 2014/Mens Tournament/Quarter Final Matches/N Djokovic v A Murray/Game Betting/Set 01,2014-09-04 00:30:00,2014-09-04 02:41:55,tennis
+470,Group A/US Open 2014/Mens Tournament/Quarter Final Matches/N Djokovic v A Murray/Game Betting/Set 02,2014-09-04 00:30:00,2014-09-04 03:23:09,tennis
+471,Group A/US Open 2014/Mens Tournament/Quarter Final Matches/N Djokovic v A Murray/Game Betting/Set 03,2014-09-04 00:30:00,2014-09-04 04:27:52,tennis
+472,Group A/US Open 2014/Mens Tournament/Quarter Final Matches/S Wawrinka v Nishikori,2014-09-03 19:00:00,2014-09-03 23:29:22,tennis
+473,Group A/US Open 2014/Mens Tournament/Quarter Final Matches/S Wawrinka v Nishikori/Game Betting/Set 03,2014-09-03 19:00:00,2014-09-03 20:53:12,tennis
+474,Group A/US Open 2014/Mens Tournament/Quarter Final Matches/S Wawrinka v Nishikori/Game Betting/Set 04,2014-09-03 19:00:00,2014-09-03 22:25:32,tennis
+475,Group A/US Open 2014/Mens Tournament/Quarter Final Matches/S Wawrinka v Nishikori/Game Betting/Set 05,2014-09-03 19:00:00,2014-09-03 23:29:11,tennis
+476,Group A/US Open 2014/Mens Tournament/Semi Final Matches/Ma Cilic v Federer,2014-09-06 17:30:00,2014-09-06 22:13:34,tennis
+477,Group A/US Open 2014/Mens Tournament/Semi Final Matches/Ma Cilic v Federer/Game Betting/Set 02,2014-09-06 17:30:00,2014-09-06 21:23:04,tennis
+478,Group A/US Open 2014/Mens Tournament/Semi Final Matches/Ma Cilic v Federer/Game Betting/Set 03,2014-09-06 17:30:00,2014-09-06 22:05:31,tennis
+479,Group A/US Open 2014/Mens Tournament/Semi Final Matches/N Djokovic v Nishikori,2014-09-06 16:00:00,2014-09-06 19:06:46,tennis
+480,Group A/US Open 2014/Mens Tournament/Semi Final Matches/N Djokovic v Nishikori/Game Betting/Set 02,2014-09-06 16:00:00,2014-09-06 17:09:35,tennis
+481,Group A/US Open 2014/Mens Tournament/Semi Final Matches/N Djokovic v Nishikori/Game Betting/Set 03,2014-09-06 16:00:00,2014-09-06 18:29:40,tennis
+482,Group A/US Open 2014/Mens Tournament/Semi Final Matches/N Djokovic v Nishikori/Game Betting/Set 04,2014-09-06 16:00:00,2014-09-06 18:43:29,tennis
+483,Group A/US Open 2014/Mens Tournament/Third Round Matches/A Mannarino v Bautista Agut,2014-08-31 18:00:00,2014-09-01 00:50:47,tennis
+484,Group A/US Open 2014/Mens Tournament/Third Round Matches/Berdych v Gabashvili,2014-08-31 17:30:00,2014-09-01 00:02:11,tennis
+485,Group A/US Open 2014/Mens Tournament/Third Round Matches/F Lopez v Thiem,2014-08-31 18:00:00,2014-09-01 07:55:14,tennis
+486,Group A/US Open 2014/Mens Tournament/Third Round Matches/G Dimitrov v Goffin,2014-09-01 00:30:00,2014-09-01 03:32:22,tennis
+487,Group A/US Open 2014/Mens Tournament/Third Round Matches/Kohlschreiber v Isner,2014-09-01 15:00:00,2014-09-01 10:00:54,tennis
+488,Group A/US Open 2014/Mens Tournament/Third Round Matches/M Granollers v Federer,2014-08-31 18:00:00,2014-09-01 00:23:50,tennis
+489,Group A/US Open 2014/Mens Tournament/Third Round Matches/Monfils v Gasquet,2014-08-31 21:00:00,2014-09-01 02:20:36,tennis
+490,Group A/US Open 2014/Mixed Doubles/Chan/Hutchins v Peschke/Matkowski,2014-09-01 19:30:00,2014-09-01 22:49:13,tennis
+491,Group A/US Open 2014/Mixed Doubles/Mirza/Soares v Chan/Hutchins,2014-09-03 19:30:00,2014-09-03 23:32:34,tennis
+492,Group A/US Open 2014/Mixed Doubles/Mirza/Soares v Spears/Gonzalez,2014-09-05 16:30:00,2014-09-05 17:38:12,tennis
+493,Group A/US Open 2014/Mixed Doubles/Mirza/Soares v Srebotnik/Bopanna,2014-09-01 21:00:00,2014-09-02 00:48:20,tennis
+494,Group A/US Open 2014/Mixed Doubles/Spears/Gonzalez v Black/Paes,2014-09-01 21:00:00,2014-09-02 00:32:09,tennis
+495,Group A/US Open 2014/Womens Tournament,2014-08-25 15:00:00,2014-09-07 22:12:05,tennis
+496,Group A/US Open 2014/Womens Tournament/Doubles Matches/Black/Mirza v Diyas/Xu,2014-09-02 20:30:00,2014-09-02 21:44:50,tennis
+497,Group A/US Open 2014/Womens Tournament/Doubles Matches/Black/Mirza v Jankovic/Koukalova,2014-09-01 18:00:00,2014-09-01 21:21:23,tennis
+498,Group A/US Open 2014/Womens Tournament/Doubles Matches/Date-Krumm/Zahlavova Strycova v Hsieh/Peng,2014-09-01 18:00:00,2014-09-01 19:51:01,tennis
+499,Group A/US Open 2014/Womens Tournament/Doubles Matches/Gajdosova/Tomljanovic v Hingis/Pennetta,2014-09-01 19:30:00,2014-09-01 21:13:56,tennis
+500,Group A/US Open 2014/Womens Tournament/Doubles Matches/Hingis/Pennetta v Black/Mirza,2014-09-04 18:00:00,2014-09-04 20:39:18,tennis
+501,Group A/US Open 2014/Womens Tournament/Doubles Matches/Hingis/Pennetta v Makarova/Vesnina,2014-09-06 19:00:00,2014-09-07 00:44:01,tennis
+502,Group A/US Open 2014/Womens Tournament/Doubles Matches/Hingis/Pennetta v Peschke/Srebotnik,2014-09-02 19:00:00,2014-09-02 20:43:02,tennis
+503,Group A/US Open 2014/Womens Tournament/Doubles Matches/Hlavackova/Zheng v Dabrowski/Rosolska,2014-09-01 15:00:00,2014-09-01 16:35:59,tennis
+504,Group A/US Open 2014/Womens Tournament/Doubles Matches/Hlavackova/Zheng v Date-Krumm/Zahlavova Stry,2014-09-03 16:30:00,2014-09-03 19:27:05,tennis
+505,Group A/US Open 2014/Womens Tournament/Doubles Matches/Kudryavtseva/Rodionova v Peschke/Srebotnik,2014-09-01 17:00:00,2014-09-01 19:35:36,tennis
+506,Group A/US Open 2014/Womens Tournament/Doubles Matches/Makarova/Vesnina v Date-Krumm/Zahlavova Stry,2014-09-04 15:00:00,2014-09-04 17:03:43,tennis
+507,Group A/US Open 2014/Womens Tournament/Doubles Matches/Williams/Williams v Makarova/Vesnina,2014-09-02 16:00:00,2014-09-02 18:12:15,tennis
+508,Group A/US Open 2014/Womens Tournament/Fourth Round Matches/Bencic v J Jankovic,2014-08-31 23:00:00,2014-09-01 02:59:15,tennis
+509,Group A/US Open 2014/Womens Tournament/Fourth Round Matches/E Makarova v Bouchard,2014-09-01 18:30:00,2014-09-01 21:04:31,tennis
+510,Group A/US Open 2014/Womens Tournament/Fourth Round Matches/Krunic v Azarenka,2014-09-01 23:00:00,2014-09-02 01:40:54,tennis
+511,Group A/US Open 2014/Womens Tournament/Fourth Round Matches/Krunic v Azarenka/Game Betting/Set 02,2014-09-02 00:00:00,2014-09-02 00:53:37,tennis
+512,Group A/US Open 2014/Womens Tournament/Fourth Round Matches/L Safarova v S Peng,2014-08-31 20:00:00,2014-09-01 01:38:32,tennis
+513,Group A/US Open 2014/Womens Tournament/Fourth Round Matches/Pennetta v Dellacqua,2014-09-01 15:00:00,2014-09-01 17:34:55,tennis
+514,Group A/US Open 2014/Womens Tournament/Fourth Round Matches/Ser Williams v Kanepi,2014-09-01 16:30:00,2014-09-01 18:03:18,tennis
+515,Group A/US Open 2014/Womens Tournament/Quarter Final Matches/Azarenka v E Makarova,2014-09-03 16:30:00,2014-09-03 18:26:38,tennis
+516,Group A/US Open 2014/Womens Tournament/Quarter Final Matches/Bencic v S Peng,2014-09-02 15:00:00,2014-09-02 18:15:44,tennis
+517,Group A/US Open 2014/Womens Tournament/Quarter Final Matches/Ser Williams v Pennetta,2014-09-03 23:00:00,2014-09-04 01:23:48,tennis
+518,Group A/US Open 2014/Womens Tournament/Quarter Final Matches/Ser Williams v Pennetta/Game Betting/Set 01,2014-09-03 23:00:00,2014-09-04 00:44:34,tennis
+519,Group A/US Open 2014/Womens Tournament/Quarter Final Matches/Wozniacki v Errani,2014-09-03 01:00:00,2014-09-03 02:57:34,tennis
+520,Group A/US Open 2014/Womens Tournament/Quarter Final Matches/Wozniacki v Errani/Game Betting/Set 01,2014-09-03 01:00:00,2014-09-03 01:59:12,tennis
+521,Group A/US Open 2014/Womens Tournament/Quarter Final Matches/Wozniacki v Errani/Game Betting/Set 02,2014-09-03 01:00:00,2014-09-03 02:41:53,tennis
+522,Group A/US Open 2014/Womens Tournament/Semi Final Matches/S Peng v Wozniacki,2014-09-05 17:45:00,2014-09-05 20:20:57,tennis
+523,Group A/US Open 2014/Womens Tournament/Semi Final Matches/S Peng v Wozniacki/Game Betting/Set 02,2014-09-05 17:45:00,2014-09-05 19:52:26,tennis
+524,Group A/US Open 2014/Womens Tournament/Semi Final Matches/Ser Williams v E Makarova,2014-09-05 19:45:00,2014-09-05 21:44:31,tennis
+525,Group A/US Open 2014/Womens Tournament/Semi Final Matches/Ser Williams v E Makarova/Game Betting/Set 01,2014-09-05 19:45:00,2014-09-05 20:59:21,tennis
+526,Group A/US Open 2014/Womens Tournament/Semi Final Matches/Ser Williams v E Makarova/Game Betting/Set 02,2014-09-05 19:45:00,2014-09-05 21:41:19,tennis
+527,Group A/US Open 2014/Womens Tournament/The Final/Ser Williams v Wozniacki,2014-09-07 20:30:00,2014-09-07 22:17:05,tennis
+528,Group A/US Open 2014/Womens Tournament/The Final/Ser Williams v Wozniacki/Game Betting/Set 01,2014-09-07 20:30:00,2014-09-07 21:25:06,tennis
+529,Group A/US Open 2014/Womens Tournament/The Final/Ser Williams v Wozniacki/Game Betting/Set 02,2014-09-07 20:30:00,2014-09-07 21:49:08,tennis
+530,Hong Kong Soccer/HKFA 1. Division/Fixtures 07 September/Double Flower FA v Southern District RSA,2014-09-07 05:30:00,2014-09-07 07:17:58,soccer
+531,Hungarian Soccer/Hungarian League Cup/Fixtures 02 September/Cegledi v Diosgyori,2014-09-02 14:30:00,2014-09-02 16:16:17,soccer
+532,Hungarian Soccer/Hungarian League Cup/Fixtures 02 September/Debrecen v Szeged 2011,2014-09-02 14:30:00,2014-09-02 16:18:40,soccer
+533,Hungarian Soccer/Hungarian League Cup/Fixtures 02 September/Gyori v Honved,2014-09-02 16:00:00,2014-09-02 17:52:30,soccer
+534,Hungarian Soccer/Hungarian League Cup/Fixtures 02 September/Szigetszentmiklosi v Pecsi Mecsek,2014-09-02 14:30:00,2014-09-02 16:16:54,soccer
+535,Hungarian Soccer/Hungarian League Cup/Fixtures 03 September/MTK Budapest v Dunaujvaros,2014-09-03 12:00:00,2014-09-03 12:15:59,soccer
+536,Hungarian Soccer/Hungarian League Cup/Fixtures 03 September/Paks v Ferencvaros,2014-09-03 16:00:00,2014-09-03 17:48:55,soccer
+537,Hungarian Soccer/Hungarian NB II/Fixtures 05 September/Mezokovesd-Zsory v Bekescsaba,2014-09-05 13:30:00,2014-09-05 14:21:10,soccer
+538,Hungarian Soccer/Hungarian NB II/Fixtures 06 September/Vasas v FC Ajka,2014-09-06 17:30:00,2014-09-06 19:17:27,soccer
+539,Hungarian Soccer/Hungarian U21 League/Fixtures 05 September/MTK Budapest U21 v Pecsi Mecsek FC U21,2014-09-05 13:00:00,2014-09-05 14:05:40,soccer
+540,Hungarian Soccer/Hungarian U21 League/Fixtures 06 September/Vasas Budapest SC U21 v Dunakanyar Vac U21,2014-09-06 11:00:00,2014-09-06 13:00:29,soccer
+541,Icelandic Soccer/Icelandic First Division/Fixtures 04 September/Haukar v Selfoss,2014-09-04 18:00:00,2014-09-04 19:50:25,soccer
+542,Icelandic Soccer/Icelandic First Division/Fixtures 04 September/KV v IA Akranes,2014-09-04 18:00:00,2014-09-04 19:51:46,soccer
+543,Icelandic Soccer/Icelandic First Division/Fixtures 04 September/Leiknir R v Throttur,2014-09-04 18:00:00,2014-09-04 19:52:34,soccer
+544,Icelandic Soccer/Third Division - Promotion Playoffs/Fixtures 02 September/KH Hlidarendi v Kari,2014-09-02 17:30:00,2014-09-02 19:19:44,soccer
+545,Indian Soccer/Calcutta Premier Division/Fixtures 01 September/Kalighat MS v Army XI,2014-09-01 09:30:00,2014-09-01 11:29:25,soccer
+546,Indian Soccer/Calcutta Premier Division/Fixtures 03 September/Mohun Bagan v SAI Training Centre,2014-09-03 10:30:00,2014-09-03 12:28:38,soccer
+547,Indian Soccer/Calcutta Premier Division/Fixtures 04 September/BN Railways v Southern Samity FC,2014-09-04 10:00:00,2014-09-04 11:35:11,soccer
+548,Indian Soccer/Calcutta Premier Division/Fixtures 06 September/Mohun Bagan v Aryan Club,2014-09-06 10:30:00,2014-09-06 12:27:05,soccer
+549,Indian Soccer/Goa Professional League/Fixtures 01 September/Goa Velha SC v Churchill Brothers,2014-09-01 10:30:00,2014-09-01 12:24:00,soccer
+550,Indian Soccer/Goa Professional League/Fixtures 04 September/Vasco SC v SESA Football Academy,2014-09-04 10:30:00,2014-09-04 12:24:06,soccer
+551,Indonesian Soccer/Indonesian Super League/Fixtures 05 September/Persita Tangerang v Pelita Bandung Raya,2014-09-05 08:30:00,2014-09-05 10:24:37,soccer
+552,International Friendlies 2014/Fixtures 06 September/Spain (W) v Angola (W),2014-09-06 17:00:00,2014-09-06 18:37:28,basket
+553,Internationals/Fixtures 02 September / Vietnam v Vietnam U23,2014-09-02 10:00:00,2014-09-02 11:42:13,soccer
+554,Internationals/International Friendly/Fixtures 03 September / Czech Republic v USA,2014-09-03 18:15:00,2014-09-03 20:09:51,soccer
+555,Internationals/International Friendly/Fixtures 03 September / Denmark v Turkey,2014-09-03 18:00:00,2014-09-03 19:52:28,soccer
+556,Internationals/International Friendly/Fixtures 03 September / England v Norway,2014-09-03 19:00:00,2014-09-03 20:55:08,soccer
+557,Internationals/International Friendly/Fixtures 03 September / Germany v Argentina,2014-09-03 18:45:00,2014-09-03 20:41:34,soccer
+558,Internationals/International Friendly/Fixtures 03 September / Lithuania v U.A.E.,2014-09-03 16:30:00,2014-09-03 18:31:58,soccer
+559,Internationals/International Friendly/Fixtures 03 September / Morocco v Qatar,2014-09-03 19:00:00,2014-09-03 20:55:12,soccer
+560,Internationals/International Friendly/Fixtures 03 September / Rep of Ireland v Oman,2014-09-03 18:45:00,2014-09-03 20:36:58,soccer
+561,Internationals/International Friendly/Fixtures 03 September / Russia v Azerbaijan,2014-09-03 15:00:00,2014-09-03 16:51:15,soccer
+562,Internationals/International Friendly/Fixtures 03 September/Ukraine v Moldova,2014-09-03 17:00:00,2014-09-03 18:54:09,soccer
+563,Internationals/International Friendly/Fixtures 04 September / Belgium v Australia,2014-09-04 18:45:00,2014-09-04 20:40:19,soccer
+564,Internationals/International Friendly/Fixtures 04 September / Croatia v Cyprus,2014-09-04 18:15:00,2014-09-04 20:04:04,soccer
+565,Internationals/International Friendly/Fixtures 04 September / France v Spain,2014-09-04 19:00:00,2014-09-04 20:53:23,soccer
+566,Internationals/International Friendly/Fixtures 04 September / Italy v Netherlands,2014-09-04 18:45:00,2014-09-04 20:40:14,soccer
+567,Internationals/International Friendly/Fixtures 04 September / Slovakia v Malta,2014-09-04 16:20:00,2014-09-04 18:12:37,soccer
+568,Internationals/International Friendly/Fixtures 04 September / Sweden v Estonia,2014-09-04 17:45:00,2014-09-04 19:40:16,soccer
+569,Internationals/International Friendly/Fixtures 04 September/Belarus v Tajikistan,2014-09-04 16:00:00,2014-09-04 17:50:42,soccer
+570,Internationals/International Friendly/Fixtures 04 September/Iraq v Peru,2014-09-04 15:30:00,2014-09-04 17:31:07,soccer
+571,Internationals/International Friendly/Fixtures 04 September/Italy v Netherlands,2014-09-04 18:45:00,2014-09-04 20:40:55,soccer
+572,Internationals/International Friendly/Fixtures 04 September/Uzbekistan v Jordan,2014-09-04 14:00:00,2014-09-04 15:55:32,soccer
+573,Internationals/International Friendly/Fixtures 05 September / Japan v Uruguay,2014-09-05 10:25:00,2014-09-05 12:19:42,soccer
+574,Internationals/International Friendly/Fixtures 05 September / Kazakhstan v Kyrgyzstan,2014-09-05 13:00:00,2014-09-05 14:37:05,soccer
+575,Internationals/International Friendly/Fixtures 06 September / Brazil v Colombia,2014-09-06 01:00:00,2014-09-06 02:58:02,soccer
+576,Internationals/International Friendly/Fixtures 06 September / Singapore v Papua New Guinea,2014-09-06 11:30:00,2014-09-06 13:25:06,soccer
+577,Internationals/International Friendly/Fixtures 06 September / Vietnam v Hong Kong,2014-09-06 10:00:00,2014-09-06 11:57:48,soccer
+578,Internationals/International Friendly/Fixtures 07 September / Morocco v Libya,2014-09-07 19:00:00,2014-09-07 20:52:55,soccer
+579,Internationals/International Friendly/Fixtures 07 September/Serbia v France,2014-09-07 18:45:00,2014-09-07 20:35:37,soccer
+580,Iranian Soccer/Pro League/Fixtures 05 September/Saipa v Zobahan,2014-09-05 13:00:00,2014-09-05 14:59:28,soccer
+581,Irish Soccer/Airtricity First Division/Fixtures 05 September/Waterford v Shelbourne,2014-09-05 18:45:00,2014-09-05 20:36:18,soccer
+582,Irish Soccer/Airtricity Premier Division/Fixtures 05 September/St Patricks v Dundalk,2014-09-05 18:05:00,2014-09-05 20:01:53,soccer
+583,Irish Soccer/FAI Ford Cup/Fixtures 01 September/Shelbourne v St Patricks,2014-09-01 19:00:00,2014-09-01 19:46:39,soccer
+584,Israeli Soccer/Israeli Liga Leumit/Fixtures 05 September/Bnei Yehuda v Hapoel Kfar Saba,2014-09-05 13:30:00,2014-09-05 15:24:21,soccer
+585,Israeli Soccer/Israeli Liga Leumit/Fixtures 05 September/Hapoel Jerusalem v Maccabi Yavne,2014-09-05 13:00:00,2014-09-05 14:54:56,soccer
+586,Israeli Soccer/Israeli Liga Leumit/Fixtures 05 September/Ironi Tiberias v Maccabi Herzliya,2014-09-05 13:00:00,2014-09-05 14:56:11,soccer
+587,Israeli Soccer/Israeli Premier League Cup/Fixtures 06 September/Bnei Sakhnin v Maccabi Haifa,2014-09-06 17:30:00,2014-09-06 19:23:50,soccer
+588,Italian Soccer/Campeonato Primavera/Fixtures 05 September/Ternana Calcio U19 v Calcio Catania U19,2014-09-05 12:00:00,2014-09-05 13:52:15,soccer
+589,Italian Soccer/Lega Pro/Fixtures 06 September/Carrarese v Pistoiese,2014-09-06 15:00:00,2014-09-06 15:40:13,soccer
+590,Italian Soccer/Lega Pro/Fixtures 06 September/Novara v Feralpisalo,2014-09-06 17:30:00,2014-09-06 19:20:00,soccer
+591,Italian Soccer/Lega Pro/Fixtures 07 September/Santarcangelo v Pisa,2014-09-07 09:00:00,2014-09-07 10:51:25,soccer
+592,Italian Soccer/Serie B/Fixtures 01 September / Modena v Cittadella,2014-09-01 18:30:00,2014-09-01 20:25:49,soccer
+593,Italian Soccer/Serie B/Fixtures 01 September/Modena v Cittadella,2014-09-01 18:30:00,2014-09-01 20:27:23,soccer
+594,Italian Soccer/Serie B/Fixtures 06 September/Brescia v Livorno,2014-09-06 18:30:00,2014-09-06 20:25:10,soccer
+595,Italian Soccer/Serie B/Fixtures 06 September/Latina v Crotone,2014-09-06 16:00:00,2014-09-06 17:54:27,soccer
+596,Italian Soccer/Serie B/Fixtures 07 September/Bari v Perugia,2014-09-07 18:30:00,2014-09-07 20:24:05,soccer
+597,Italian Soccer/Serie B/Fixtures 07 September/Bologna v Entella,2014-09-07 13:00:00,2014-09-07 14:57:53,soccer
+598,Italian Soccer/Serie B/Fixtures 07 September/Carpi v Varese,2014-09-07 13:00:00,2014-09-07 14:52:09,soccer
+599,Italian Soccer/Serie B/Fixtures 07 September/Cittadella v Avellino,2014-09-07 13:00:00,2014-09-07 14:52:41,soccer
+600,Italian Soccer/Serie B/Fixtures 07 September/Pro Vercelli v Catania,2014-09-07 16:00:00,2014-09-07 17:55:41,soccer
+601,Italian Soccer/Serie B/Fixtures 07 September/Trapani v Vicenza,2014-09-07 13:00:00,2014-09-07 13:51:15,soccer
+602,Japanese Soccer/Emperors Cup/Fixtures 07 September/FC Tokyo v Shimizu,2014-09-07 10:00:00,2014-09-07 11:56:09,soccer
+603,Japanese Soccer/J2 League/Fixtures 06 September/Okayama v Iwata,2014-09-06 09:30:00,2014-09-06 11:25:06,soccer
+604,Japanese Soccer/J2 League/Fixtures 06 September/Shonan v Matsumoto,2014-09-06 10:00:00,2014-09-06 11:56:51,soccer
+605,Japanese Soccer/J2 League/Fixtures 06 September/Tokyo-V v Kamatamare Sanuki,2014-09-06 09:00:00,2014-09-06 10:57:09,soccer
+606,Japanese Soccer/J2 League/Fixtures 06 September/Toyama v FC Gifu,2014-09-06 09:00:00,2014-09-06 11:04:23,soccer
+607,Japanese Soccer/J2 League/Fixtures 06 September/Yokohama FC v Thespakusatsu Gunma,2014-09-06 09:00:00,2014-09-06 10:55:19,soccer
+608,Japanese Soccer/J3 League/Fixtures 05 September/Yokohama SCC v Grulla Morioka,2014-09-05 10:00:00,2014-09-05 11:53:27,soccer
+609,Japanese Soccer/J3 League/Fixtures 07 September/SC Sagamihara v Tottori,2014-09-07 06:00:00,2014-09-07 07:51:48,soccer
+610,Japanese Soccer/Nabisco Cup/Fixtures 03 September/Hiroshima v Urawa,2014-09-03 10:00:00,2014-09-03 11:56:13,soccer
+611,Japanese Soccer/Nabisco Cup/Fixtures 03 September/Yokohama FM v Kashiwa,2014-09-03 10:30:00,2014-09-03 12:21:15,soccer
+612,Japanese Soccer/Nabisco Cup/Fixtures 07 September/Kashiwa v Yokohama FM,2014-09-07 10:00:00,2014-09-07 11:55:28,soccer
+613,Japanese Soccer/Nabisco Cup/Fixtures 07 September/Kawasaki v C-Osaka,2014-09-07 10:00:00,2014-09-07 11:56:38,soccer
+614,Malaysian Soccer/Malaysia Cup/Fixtures 02 September/Johor Darul Tazim II v Pahang,2014-09-02 12:45:00,2014-09-02 14:44:06,soccer
+615,N Irish Soccer/NIFL Premiership/Fixtures 06 September/Glentoran v Coleraine,2014-09-06 14:00:00,2014-09-06 15:54:08,soccer
+616,N Irish Soccer/NIFL Premiership/Fixtures 06 September/Institute v Glenavon,2014-09-06 14:00:00,2014-09-06 15:27:03,soccer
+617,North American Soccer/MLS/Fixtures 01 September/Chivas USA v Los Angeles,2014-09-01 00:00:00,2014-09-01 01:59:09,soccer
+618,North American Soccer/MLS/Fixtures 04 September/Chivas USA v Seattle,2014-09-04 02:30:00,2014-09-04 04:29:52,soccer
+619,North American Soccer/MLS/Fixtures 04 September/New England v Kansas City,2014-09-03 23:30:00,2014-09-04 01:32:32,soccer
+620,North American Soccer/MLS/Fixtures 06 September/Toronto FC v Philadelphia,2014-09-06 18:00:00,2014-09-06 20:02:02,soccer
+621,North American Soccer/MLS/Fixtures 07 September/Columbus v Chivas USA,2014-09-07 19:00:00,2014-09-07 19:55:14,soccer
+622,North American Soccer/MLS/Fixtures 07 September/Houston Dynamo v Montreal Impact,2014-09-07 00:30:00,2014-09-07 02:30:02,soccer
+623,North American Soccer/MLS/Fixtures 07 September/New York Red Bulls v Kansas City,2014-09-06 23:30:00,2014-09-07 01:49:59,soccer
+624,North American Soccer/MLS/Fixtures 07 September/Portland Timbers v San Jose Earthquakes,2014-09-07 21:00:00,2014-09-07 22:14:22,soccer
+625,North American Soccer/MLS/Fixtures 07 September/Real Salt Lake v Dallas,2014-09-07 02:00:00,2014-09-07 04:00:16,soccer
+626,North American Soccer/MLS/Fixtures 07 September/Vancouver Whitecaps v D. C. Utd,2014-09-07 02:00:00,2014-09-07 04:05:21,soccer
+627,North American Soccer/North American Soccer League/Fixtures 07 September/Minnesota Utd v Tampa Bay Rowdies,2014-09-07 00:00:00,2014-09-07 02:01:04,soccer
+628,North American Soccer/North American Soccer League/Fixtures 07 September/New York Cosmos v Fort Lauderdale,2014-09-06 23:00:00,2014-09-07 01:02:14,soccer
+629,North American Soccer/USL Pro/Fixtures 02 September/Los Angeles Galaxy II v Richmond Kickers,2014-09-02 02:30:00,2014-09-02 04:28:41,soccer
+630,North American Soccer/USL Pro/Fixtures 06 September/Charleston Battery v Harrisburg,2014-09-05 23:30:00,2014-09-06 00:22:55,soccer
+631,North American Soccer/USL Pro/Fixtures 07 September/Rochester Rhinos v Wilmington,2014-09-07 20:05:00,2014-09-07 22:10:59,soccer
+632,Norwegian Soccer/Norwegian 1. Division/Fixtures 01 September/Ranheim v Mjondalen,2014-09-01 17:00:00,2014-09-01 18:50:53,soccer
+633,Norwegian Soccer/Norwegian 1. Division/Fixtures 05 September/Mjondalen v Tromso,2014-09-05 17:00:00,2014-09-05 18:51:29,soccer
+634,Norwegian Soccer/Norwegian 2. Division/Fixtures 01 September/Rosenborg II v Rodde,2014-09-01 16:00:00,2014-09-01 17:52:08,soccer
+635,Norwegian Soccer/Norwegian 2. Division/Fixtures 01 September/Stabaek II v Fana,2014-09-01 16:00:00,2014-09-01 17:52:27,soccer
+636,Norwegian Soccer/Norwegian 3. Division/Fixtures 01 September/Bryne FK II v Sola FK,2014-09-01 16:00:00,2014-09-01 17:19:49,soccer
+637,Panama Soccer/Panama Primera Division/Fixtures 06 September/CA Independiente v Alianza FC (Panama),2014-09-06 02:00:00,2014-09-06 03:56:47,soccer
+638,Paraguayan Soccer/Paraguayan Primera/Fixtures 05 September/General Diaz v Rubio Nu,2014-09-05 21:00:00,2014-09-05 22:48:11,soccer
+639,Paraguayan Soccer/Paraguayan Primera/Fixtures 06 September/Deportivo Capiata v Guarani (Par),2014-09-05 23:00:00,2014-09-06 01:15:22,soccer
+640,Paraguayan Soccer/Paraguayan Primera/Fixtures 07 September/Libertad v Olimpia,2014-09-06 23:00:00,2014-09-07 00:55:06,soccer
+641,Paraguayan Soccer/Paraguayan Primera/Fixtures 07 September/Sol de America v 12 de Octubre,2014-09-07 20:30:00,2014-09-07 22:23:56,soccer
+642,Paraguayan Soccer/Paraguayan Primera/Fixtures 31 August   /Guarani (Par) v Libertad,2014-08-31 22:30:00,2014-09-01 00:21:13,soccer
+643,Peruvian Soccer/Peru Primera Division/Fixtures 06 September/Leon de Huanuco v Real Garcilaso,2014-09-06 17:45:00,2014-09-06 19:53:43,soccer
+644,Peruvian Soccer/Peru Primera Division/Fixtures 07 September/San Simon v Juan Aurich,2014-09-07 16:15:00,2014-09-07 18:09:03,soccer
+645,Peruvian Soccer/Peru Primera Division/Fixtures 07 September/Sport Huancayo v Universitario,2014-09-07 18:30:00,2014-09-07 20:21:22,soccer
+646,Polish Soccer/Polish 1. Liga/Fixtures 06 September/Arka Gdynia v Nieciecza,2014-09-06 12:45:00,2014-09-06 14:32:56,soccer
+647,Polish Soccer/Polish 1. Liga/Fixtures 06 September/Olimpia Grudziadz v Bytovia Bytow,2014-09-06 15:00:00,2014-09-06 16:53:27,soccer
+648,Polish Soccer/Polish 1. Liga/Fixtures 07 September/Dolcan Zabki v Wisla Plock,2014-09-07 10:15:00,2014-09-07 12:05:26,soccer
+649,Polish Soccer/Polish 1. Liga/Fixtures 07 September/Zaglebie Lubin v Stomil Olsztyn,2014-09-07 10:30:00,2014-09-07 11:19:46,soccer
+650,Polish Soccer/Polish 2. Liga/Fixtures 07 September/FKS Stal Mielec v KP Blekitni,2014-09-07 14:00:00,2014-09-07 15:50:18,soccer
+651,Portuguese Soccer/Primeira Liga/Fixtures 01 September/Rio Ave v Boavista,2014-09-01 19:00:00,2014-09-01 20:49:23,soccer
+652,Portuguese Soccer/Segunda Liga/Fixtures 06 September/Braga B v Freamunde,2014-09-06 16:00:00,2014-09-06 17:48:32,soccer
+653,Portuguese Soccer/Segunda Liga/Fixtures 07 September/Academico de Viseu v Trofense,2014-09-07 16:00:00,2014-09-07 17:51:30,soccer
+654,Portuguese Soccer/Segunda Liga/Fixtures 07 September/Guimaraes B v Leixoes,2014-09-07 16:00:00,2014-09-07 17:51:52,soccer
+655,Portuguese Soccer/Segunda Liga/Fixtures 07 September/Tondela v Feirense,2014-09-07 15:00:00,2014-09-07 16:54:18,soccer
+656,Romanian Soccer/Liga 1/Fixtures 01 September/Otelul Galati v Rapid Bucharest,2014-09-01 15:30:00,2014-09-01 17:27:05,soccer
+657,Romanian Soccer/Liga 1/Fixtures 01 September/Uni Cluj v CSMS Iasi,2014-09-01 18:00:00,2014-09-01 19:56:53,soccer
+658,Romanian Soccer/Romanian Liga II/Fixtures 06 September/Academica Arges v Gloria Buzau,2014-09-06 08:00:00,2014-09-06 09:34:13,soccer
+659,Romanian Soccer/Romanian Liga III/Fixtures 02 September/AFC Astra II v CS Concordia Chiajna II,2014-09-02 14:00:00,2014-09-02 15:51:46,soccer
+660,Russian Soccer/Russian Division 1/Fixtures 07 September/Gazovik v FC Sakhalin,2014-09-07 11:00:00,2014-09-07 12:51:28,soccer
+661,Russian Soccer/Russian Division 1/Fixtures 07 September/Khimik Dzerzhinsk v Sibir,2014-09-07 11:00:00,2014-09-07 12:50:36,soccer
+662,Russian Soccer/Russian Division 1/Fixtures 07 September/SKA-Energiya v Shinnik,2014-09-07 04:00:00,2014-09-07 06:03:38,soccer
+663,Russian Soccer/Russian Division 1/Fixtures 07 September/Tomsk v Tosno,2014-09-07 12:00:00,2014-09-07 13:38:40,soccer
+664,Russian Soccer/Russian Division 1/Fixtures 07 September/Yenisey Krasnoyarsk v Volga Nyzhnyi Novgorod,2014-09-07 11:00:00,2014-09-07 12:53:52,soccer
+665,Saudi Arabian Soccer/Saudi Division 1/Fixtures 05 September/Al-Wahda (KSA) v Abha Club,2014-09-05 16:10:00,2014-09-05 18:06:40,soccer
+666,Scottish Soccer/SPFL Development League/Fixtures 02 September / Dundee FC (youth) v Dundee Utd (Youth),2014-09-02 18:00:00,2014-09-02 19:48:41,soccer
+667,Scottish Soccer/SPFL Development League/Fixtures 02 September / Partick (Youth) v St Johnstone (Youth),2014-09-02 18:00:00,2014-09-02 19:41:23,soccer
+668,Scottish Soccer/Scottish Challenge Cup/Fixtures 06 September/Peterhead v Livingston,2014-09-06 14:00:00,2014-09-06 15:52:52,soccer
+669,Singaporean Soccer/Singapore Prime League/Fixtures 04 September/Warriors (Res) v Hougang Utd (Res),2014-09-04 11:30:00,2014-09-04 13:24:13,soccer
+670,Singaporean Soccer/Singapore S League/Fixtures 02 September/Hougang Utd v Harimau Muda B,2014-09-02 11:30:00,2014-09-02 13:27:24,soccer
+671,Singaporean Soccer/Singapore S League/Fixtures 05 September/Harimau Muda B v Balestier Khalsa,2014-09-05 12:45:00,2014-09-05 14:41:31,soccer
+672,Slovakian Soccer/1. Liga East/Fixtures 07 September/Lokomotiv Kosice v Dolny Kubin,2014-09-07 13:30:00,2014-09-07 15:22:21,soccer
+673,Slovakian Soccer/Slovakian Cup/Fixtures 03 September/Maj Cernova v Banska Bystrica,2014-09-03 14:00:00,2014-09-03 15:45:53,soccer
+674,Slovakian Soccer/Slovakian U19 League/Fixtures 03 September/Z Michalovce U19 v MFK Ruzomberok U19,2014-09-03 13:00:00,2014-09-03 14:46:43,soccer
+675,South Korean Soccer/K League/Fixtures 06 September/Jeonbuk Motors v Sangju Sangmu,2014-09-06 07:00:00,2014-09-06 09:03:50,soccer
+676,South Korean Soccer/K League/Fixtures 06 September/Seongnam Ilhwa v Incheon Utd,2014-09-06 08:00:00,2014-09-06 09:54:11,soccer
+677,South Korean Soccer/K League/Fixtures 07 September/Ulsan Hyundai Horang-i v Gyeongnam,2014-09-07 08:00:00,2014-09-07 09:48:52,soccer
+678,Spanish Soccer/Segunda Division/Fixtures 06 September/Albacete v Sporting Gijon,2014-09-06 16:00:00,2014-09-06 17:50:14,soccer
+679,Spanish Soccer/Segunda Division/Fixtures 06 September/Osasuna v Alaves,2014-09-06 16:15:00,2014-09-06 18:05:31,soccer
+680,Spanish Soccer/Segunda Division/Fixtures 06 September/Recreativo Huelva v Llagostera,2014-09-06 14:00:00,2014-09-06 15:50:50,soccer
+681,Spanish Soccer/Segunda Division/Fixtures 06 September/Sabadell v Numancia,2014-09-06 17:00:00,2014-09-06 18:50:38,soccer
+682,Spanish Soccer/Segunda Division/Fixtures 07 September/Barcelona B v Zaragoza,2014-09-07 17:00:00,2014-09-07 18:25:18,soccer
+683,Spanish Soccer/Segunda Division/Fixtures 07 September/Ponferradina v Betis,2014-09-07 10:00:00,2014-09-07 11:13:08,soccer
+684,Spanish Soccer/Segunda Division/Fixtures 07 September/Valladolid v Racing Santander,2014-09-07 16:15:00,2014-09-07 18:06:16,soccer
+685,Spanish Soccer/Spanish Copa Federacion/Fixtures 03 September/CD Llosetense v Binissalem,2014-09-03 17:00:00,2014-09-03 18:35:38,soccer
+686,Spanish Soccer/Spanish Cup/Fixtures 03 September/Somozas v Varea,2014-09-03 16:00:00,2014-09-03 18:10:48,soccer
+687,Spanish Soccer/Tercera Division/Fixtures 06 September/CD Llosetense v CE Constancia,2014-09-06 17:00:00,2014-09-06 18:52:51,soccer
+688,Spanish Soccer/Tercera Division/Fixtures 06 September/Manacor v Atletico Rafal,2014-09-06 16:30:00,2014-09-06 18:24:19,soccer
+689,Spanish Soccer/Tercera Division/Fixtures 06 September/Real Madrid C v Alcobendas Sport,2014-09-06 17:00:00,2014-09-06 18:54:49,soccer
+690,Spanish Soccer/Tercera Division/Fixtures 06 September/Sevilla FC III v AD Ceuta FC,2014-09-06 10:30:00,2014-09-06 12:28:09,soccer
+691,Spanish Soccer/Tercera Division/Fixtures 07 September/Atl Madrid III v Colmenar Viejo,2014-09-07 08:00:00,2014-09-07 08:27:43,soccer
+692,Spanish Soccer/Tercera Division/Fixtures 07 September/Huercal-Overa CF v AD Caravaca Vera Cruz,2014-09-07 17:30:00,2014-09-07 19:21:09,soccer
+693,Specials/Player Next Club Specials,2014-09-01 22:00:00,2014-09-02 00:40:03,soccer
+694,Swedish Soccer/Superettan/Fixtures 01 September/Sundsvall v Assyriska,2014-09-01 17:20:00,2014-09-01 19:11:13,soccer
+695,Swedish Soccer/Superettan/Fixtures 02 September/Syrianska FC v GAIS,2014-09-02 17:20:00,2014-09-02 18:38:14,soccer
+696,Swedish Soccer/Swedish Cup/Fixtures 04 September/Norrby IF v GAIS,2014-09-04 17:00:00,2014-09-04 18:52:51,soccer
+697,Swedish Soccer/Swedish Div 1 Norra/Fixtures 01 September/Vasteras SK v IK Brage,2014-09-01 17:00:00,2014-09-01 18:54:56,soccer
+698,Swedish Soccer/Swedish Div 1 Norra/Fixtures 06 September/IK Frej v Nykopings BIS,2014-09-06 14:00:00,2014-09-06 15:51:42,soccer
+699,Swedish Soccer/Swedish Div 1 Sodra/Fixtures 07 September/Trelleborgs v Qviding,2014-09-07 15:00:00,2014-09-07 16:49:52,soccer
+700,Swedish Soccer/Swedish Division 2/Fixtures 05 September/Hassleholms v Limhamn Bunkeflo,2014-09-05 18:00:00,2014-09-05 19:49:21,soccer
+701,Swedish Soccer/Swedish Division 2/Fixtures 06 September/Kvarnby v Prespa Birlik,2014-09-06 12:00:00,2014-09-06 12:47:36,soccer
+702,Swiss Soccer/Swiss Challenge League/Fixtures 01 September/Schaffhausen v Winterthur,2014-09-01 17:45:00,2014-09-01 18:58:38,soccer
+703,U19 Internationals/AFF U19 Championship/Fixtures 05 September / Vietnam U19 v Australia U19,2014-09-05 12:00:00,2014-09-05 13:57:52,soccer
+704,U21 Euro Championship/Qualifiers/Fixtures 03 September / Azerbaijan U21 v Israel U21,2014-09-03 14:00:00,2014-09-03 15:53:52,soccer
+705,U21 Euro Championship/Qualifiers/Fixtures 03 September / Estonia U21 v Bulgaria U21,2014-09-03 16:00:00,2014-09-03 17:23:03,soccer
+706,U21 Euro Championship/Qualifiers/Fixtures 03 September / Latvia U21 v Croatia U21,2014-09-03 14:00:00,2014-09-03 15:08:55,soccer
+707,U21 Euro Championship/Qualifiers/Fixtures 03 September/Denmark U21 v Russia U21,2014-09-03 16:00:00,2014-09-03 17:50:14,soccer
+708,U21 Euro Championship/Qualifiers/Fixtures 03 September/Iceland U21 v Armenia U21,2014-09-03 16:30:00,2014-09-03 17:17:13,soccer
+709,U21 Euro Championship/Qualifiers/Fixtures 04 September / Netherlands U21 v Georgia U21,2014-09-04 16:30:00,2014-09-04 18:26:02,soccer
+710,U21 Euro Championship/Qualifiers/Fixtures 04 September / Slovakia U21 v Scotland U21,2014-09-04 18:30:00,2014-09-04 20:24:44,soccer
+711,U21 Euro Championship/Qualifiers/Fixtures 04 September/Hungary U21 v Spain U21,2014-09-04 14:00:00,2014-09-04 15:49:22,soccer
+712,U21 Euro Championship/Qualifiers/Fixtures 04 September/Kazakhstan U21 v France U21,2014-09-04 14:15:00,2014-09-04 16:06:00,soccer
+713,U21 Euro Championship/Qualifiers/Fixtures 04 September/Norway U21 v Portugal U21,2014-09-04 17:00:00,2014-09-04 18:54:10,soccer
+714,U21 Euro Championship/Qualifiers/Fixtures 04 September/Romania U21 v Montenegro U21,2014-09-04 16:30:00,2014-09-04 18:25:26,soccer
+715,U21 Euro Championship/Qualifiers/Fixtures 04 September/Ukraine U21 v Switzerland U21,2014-09-04 15:30:00,2014-09-04 17:07:30,soccer
+716,U21 Euro Championship/Qualifiers/Fixtures 05 September / Cyprus U21 v Belgium U21,2014-09-05 15:00:00,2014-09-05 16:33:37,soccer
+717,U21 Euro Championship/Qualifiers/Fixtures 05 September / Italy U21 v Serbia U21,2014-09-05 19:00:00,2014-09-05 20:56:51,soccer
+718,U21 Euro Championship/Qualifiers/Fixtures 05 September/Austria U21 v Bosnia U21,2014-09-05 18:30:00,2014-09-05 20:22:46,soccer
+719,U21 Euro Championship/Qualifiers/Fixtures 05 September/Finland U21 v Wales U21,2014-09-05 16:00:00,2014-09-05 17:51:28,soccer
+720,U21 Euro Championship/Qualifiers/Fixtures 05 September/Germany U21 v Rep of Ireland U21,2014-09-05 16:00:00,2014-09-05 17:51:13,soccer
+721,U21 Euro Championship/Qualifiers/Fixtures 05 September/Italy U21 v Serbia U21,2014-09-05 19:00:00,2014-09-05 20:58:00,soccer
+722,U21 Euro Championship/Qualifiers/Fixtures 05 September/Lithuania U21 v England U21,2014-09-05 16:00:00,2014-09-05 17:50:22,soccer
+723,U21 Euro Championship/Qualifiers/Fixtures 05 September/Sweden U21 v Greece U21,2014-09-05 16:00:00,2014-09-05 17:51:13,soccer
+724,U21 Internationals/Fixtures 04 September / Belarus U21 v Liechtenstein U21,2014-09-04 14:00:00,2014-09-04 15:36:12,soccer
+725,U23 Internationals/Fixtures 06 September/Morocco U23 v Egypt U23,2014-09-06 19:00:00,2014-09-06 20:55:10,soccer
+726,Ukrainian Soccer/Ukrainian Druha Liga/Fixtures 01 September/Enerhiya Nova Kakhovka v Obolon-Brovar,2014-09-01 14:00:00,2014-09-01 15:53:36,soccer
+727,Ukrainian Soccer/Ukrainian Druha Liga/Fixtures 01 September/Real Pharm Ovidiopol v FK Makiyivvuhillya,2014-09-01 14:30:00,2014-09-01 16:24:26,soccer
+728,Ukrainian Soccer/Ukrainian U19 League/Fixtures 03 September/FC Karpaty Lviv U19 v FK H-Z Uzh. U19,2014-09-03 13:00:00,2014-09-03 14:26:37,soccer
+729,Ukrainian Soccer/Ukrainian U19 League/Fixtures 03 September/FC Vorskla Poltava U19 v Dnipro U19,2014-09-03 14:00:00,2014-09-03 15:27:51,soccer
+730,Ukrainian Soccer/Ukrainian U19 League/Fixtures 03 September/FC Zorya Luhansk U19 v FC Olimpik Donetsk U19,2014-09-03 12:00:00,2014-09-03 13:14:36,soccer
+731,Ukrainian Soccer/Ukrainian U19 League/Fixtures 03 September/Metallist Kharkiv U19 v Odessa U19,2014-09-03 13:30:00,2014-09-03 15:24:10,soccer
+732,Uruguayan Soccer/Uruguayan Primera/Fixtures 06 September/Defensor Sporting v Penarol,2014-09-06 18:00:00,2014-09-06 19:59:20,soccer
+733,Uzbekistan Soccer/1st Division - Promotion Round/Fixtures 04 September/FK Kokand 1912 v FK Alanga Koson,2014-09-04 12:00:00,2014-09-04 13:54:41,soccer
+734,WNBA 2014/Fixtures 01 September/Indiana @ Chicago,2014-09-01 20:00:00,2014-09-01 22:53:36,basket
+735,WNBA 2014/Fixtures 02 September/Minnesota @ Phoenix,2014-09-03 02:00:00,2014-09-03 03:59:44,basket
+736,WNBA 2014/Fixtures 03 September/Chicago @ Indiana,2014-09-03 23:00:00,2014-09-04 01:08:20,basket
+737,WNBA 2014/Games 07 September/Chicago @ Phoenix,2014-09-07 19:30:00,2014-09-07 21:28:37,basket
+738,Welsh Soccer/Welsh Premier League/Fixtures 06 September/Newtown v Prestatyn,2014-09-06 13:30:00,2014-09-06 15:25:28,soccer
+739,Womens Soccer/BeNe League/Fixtures 02 September / Anderlecht (W) v OH Leuven (W),2014-09-02 18:30:00,2014-09-02 19:18:09,soccer
+740,Womens Soccer/BeNe League/Fixtures 02 September / Twente (W) v Ajax (W),2014-09-02 16:30:00,2014-09-02 18:24:00,soccer
+741,Womens Soccer/English Womens Super League/Fixtures 04 September / Everton (W) v Liverpool (W),2014-09-04 18:30:00,2014-09-04 20:27:04,soccer
+742,Womens Soccer/Estonian Meistriliiga Women/Fixtures 01 September / Parnu (W) v Tammeka Tartu ( W),2014-09-01 15:00:00,2014-09-01 16:50:58,soccer
+743,Womens Soccer/Superliga (women)/Fixtures 06 September / Fundacion Albacete (W) v Sevilla FC (W),2014-09-06 17:30:00,2014-09-06 19:20:58,soccer
+744,Womens Soccer/Superliga (women)/Fixtures 07 September / Barcelona (W) v Collerense (W),2014-09-07 10:00:00,2014-09-07 12:02:35,soccer
